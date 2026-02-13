@@ -50,54 +50,58 @@ const StationSettings: React.FC = () => {
 
   return (
     <div className="space-y-6">
-      <div className="flex justify-between items-center">
-        <div className="flex items-center space-x-2">
-          <Settings className="h-6 w-6 text-gray-600" />
-          <h2 className="text-2xl font-bold text-gray-800">Station Settings</h2>
+      <div className="flex justify-between items-center mb-8">
+        <div className="flex items-center space-x-3">
+          <div className="bg-primary-100 p-2 rounded-form">
+            <Settings className="h-6 w-6 text-primary-600" />
+          </div>
+          <h2 className="text-2xl font-bold text-secondary-800">Station Settings</h2>
         </div>
         <button
           onClick={handleSave}
-          className="flex items-center space-x-2 bg-red-600 text-white px-4 py-2 rounded-md hover:bg-red-700"
+          className="flex items-center space-x-2 bg-primary-600 text-white px-6 py-3 rounded-form hover:bg-primary-700 transform hover:scale-[1.02] transition-all duration-200 shadow-form font-medium"
         >
           <Save className="h-5 w-5" />
           <span>Save Changes</span>
         </button>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Station Information */}
-        <div className="bg-white p-6 rounded-lg shadow-md">
-          <div className="flex items-center space-x-2 mb-4">
-            <Building className="h-5 w-5 text-red-600" />
-            <h3 className="text-lg font-semibold">Station Information</h3>
+        <div className="bg-white p-8 rounded-form shadow-form border border-secondary-200">
+          <div className="flex items-center space-x-3 mb-6">
+            <div className="bg-primary-100 p-2 rounded-form">
+              <Building className="h-5 w-5 text-primary-600" />
+            </div>
+            <h3 className="text-xl font-semibold text-secondary-800">Station Information</h3>
           </div>
-          <div className="space-y-4">
+          <div className="space-y-6">
             <div>
-              <label className="block text-sm font-medium text-gray-700">Station Name</label>
+              <label className="block text-sm font-medium text-secondary-700 mb-2">Station Name</label>
               <input
                 type="text"
                 value={station.name}
                 disabled
-                className="mt-1 block w-full rounded-md border-gray-300 bg-gray-50 shadow-sm"
+                className="w-full px-4 py-3 border border-secondary-300 rounded-form bg-secondary-50 text-secondary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
               />
             </div>
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-2 gap-6">
               <div>
-                <label className="block text-sm font-medium text-gray-700">Latitude</label>
+                <label className="block text-sm font-medium text-secondary-700 mb-2">Latitude</label>
                 <input
                   type="text"
                   value={station.location.latitude}
                   disabled
-                  className="mt-1 block w-full rounded-md border-gray-300 bg-gray-50 shadow-sm"
+                  className="w-full px-4 py-3 border border-secondary-300 rounded-form bg-secondary-50 text-secondary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
                 />
               </div>
               <div>
-                <label className="block text-sm font-medium text-gray-700">Longitude</label>
+                <label className="block text-sm font-medium text-secondary-700 mb-2">Longitude</label>
                 <input
                   type="text"
                   value={station.location.longitude}
                   disabled
-                  className="mt-1 block w-full rounded-md border-gray-300 bg-gray-50 shadow-sm"
+                  className="w-full px-4 py-3 border border-secondary-300 rounded-form bg-secondary-50 text-secondary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
                 />
               </div>
             </div>
@@ -105,10 +109,12 @@ const StationSettings: React.FC = () => {
         </div>
 
         {/* Notifications */}
-        <div className="bg-white p-6 rounded-lg shadow-md">
-          <div className="flex items-center space-x-2 mb-4">
-            <Settings className="h-5 w-5 text-red-600" />
-            <h3 className="text-lg font-semibold">Alert Settings</h3>
+        <div className="bg-white p-8 rounded-form shadow-form border border-secondary-200">
+          <div className="flex items-center space-x-3 mb-6">
+            <div className="bg-primary-100 p-2 rounded-form">
+              <Settings className="h-5 w-5 text-primary-600" />
+            </div>
+            <h3 className="text-xl font-semibold text-secondary-800">Alert Settings</h3>
           </div>
           <div className="space-y-4">
             <div className="flex items-center justify-between">
@@ -125,7 +131,7 @@ const StationSettings: React.FC = () => {
                   }
                   className="sr-only peer"
                 />
-                <div className="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-red-300 rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-red-600"></div>
+                <div className="w-11 h-6 bg-secondary-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-primary-300 rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-secondary-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-primary-600"></div>
               </label>
             </div>
             <div className="flex items-center justify-between">
@@ -142,7 +148,7 @@ const StationSettings: React.FC = () => {
                   }
                   className="sr-only peer"
                 />
-                <div className="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-red-300 rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-red-600"></div>
+                <div className="w-11 h-6 bg-secondary-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-primary-300 rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-secondary-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-primary-600"></div>
               </label>
             </div>
             <div className="flex items-center justify-between">
@@ -159,7 +165,7 @@ const StationSettings: React.FC = () => {
                   }
                   className="sr-only peer"
                 />
-                <div className="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-red-300 rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-red-600"></div>
+                <div className="w-11 h-6 bg-secondary-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-primary-300 rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-secondary-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-primary-600"></div>
               </label>
             </div>
           </div>

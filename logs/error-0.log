@@ -1,0 +1,45 @@
+2025-10-16 16:09:40 +03:00: Delete user error: error: update or delete on table "users" violates foreign key constraint "stations_manager_id_fkey" on table "stations"
+    at /home/herimorn/advatech/Sp-Rwanda/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async deleteUser (file:///home/herimorn/advatech/Sp-Rwanda/controllers/userController.js:122:20) {
+  length: 317,
+  severity: 'ERROR',
+  code: '23503',
+  detail: 'Key (id)=(a26a83d8-ebf9-41fc-bfd8-4f54596d3ee5) is still referenced from table "stations".',
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: 'public',
+  table: 'stations',
+  column: undefined,
+  dataType: undefined,
+  constraint: 'stations_manager_id_fkey',
+  file: 'ri_triggers.c',
+  line: '2541',
+  routine: 'ri_ReportViolation'
+}
+2025-10-16 16:48:25 +03:00: Error initializing database tables: error: column "station_id" of relation "work_permits" already exists
+    at /home/herimorn/advatech/Sp-Rwanda/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async initializeTables (file:///home/herimorn/advatech/Sp-Rwanda/index.js:353:9) {
+  length: 294,
+  severity: 'ERROR',
+  code: '42701',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: 'SQL statement "ALTER TABLE work_permits ADD COLUMN station_id UUID REFERENCES stations(id)"\n' +
+    'PL/pgSQL function inline_code_block line 7 at SQL statement',
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'tablecmds.c',
+  line: '7083',
+  routine: 'check_for_column_name_collision'
+}

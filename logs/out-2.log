@@ -1,0 +1,3223 @@
+2025-10-16 11:54:51 +03:00: Server running on http://0.0.0.0:6000
+2025-10-16 11:54:52 +03:00: Database tables already exist, ensured all required columns are present
+2025-10-16 11:56:23 +03:00: Server running on http://0.0.0.0:6000
+2025-10-16 11:56:23 +03:00: Database tables already exist, ensured all required columns are present
+2025-10-16 11:59:35 +03:00: Server running on http://0.0.0.0:6000
+2025-10-16 11:59:36 +03:00: Database tables already exist, ensured all required columns are present
+2025-10-16 12:02:42 +03:00: Server running on http://0.0.0.0:3000
+2025-10-16 12:02:42 +03:00: Database tables already exist, ensured all required columns are present
+2025-10-16 12:07:31 +03:00: Server running on http://0.0.0.0:3000
+2025-10-16 12:07:32 +03:00: Database tables already exist, ensured all required columns are present
+2025-10-16 12:07:56 +03:00: Stations returned: [
+  {
+    id: 'e605ef56-1370-463c-ae36-eb7511041a69',
+    name: 'bishenyi',
+    location: { latitude: 20, longitude: 20 },
+    manager_id: 'a26a83d8-ebf9-41fc-bfd8-4f54596d3ee5',
+    created_at: 2025-10-16T08:24:20.870Z
+  }
+]
+2025-10-16 12:09:00 +03:00: Stations returned: [
+  {
+    id: 'e605ef56-1370-463c-ae36-eb7511041a69',
+    name: 'bishenyi',
+    location: { latitude: 20, longitude: 20 },
+    manager_id: 'a26a83d8-ebf9-41fc-bfd8-4f54596d3ee5',
+    created_at: 2025-10-16T08:24:20.870Z
+  }
+]
+2025-10-16 12:16:23 +03:00: Stations returned: [
+  {
+    id: 'e605ef56-1370-463c-ae36-eb7511041a69',
+    name: 'bishenyi',
+    location: { latitude: 20, longitude: 20 },
+    manager_id: 'a26a83d8-ebf9-41fc-bfd8-4f54596d3ee5',
+    created_at: 2025-10-16T08:24:20.870Z
+  }
+]
+2025-10-16 13:39:07 +03:00: Stations returned: [
+  {
+    id: 'e605ef56-1370-463c-ae36-eb7511041a69',
+    name: 'bishenyi',
+    location: { latitude: 20, longitude: 20 },
+    manager_id: 'a26a83d8-ebf9-41fc-bfd8-4f54596d3ee5',
+    created_at: 2025-10-16T08:24:20.870Z
+  }
+]
+2025-10-16 13:42:56 +03:00: Stations returned: [
+  {
+    id: 'e605ef56-1370-463c-ae36-eb7511041a69',
+    name: 'bishenyi',
+    location: { latitude: 20, longitude: 20 },
+    manager_id: 'a26a83d8-ebf9-41fc-bfd8-4f54596d3ee5',
+    created_at: 2025-10-16T08:24:20.870Z
+  }
+]
+2025-10-16 13:46:18 +03:00: Stations returned: [
+  {
+    id: 'e605ef56-1370-463c-ae36-eb7511041a69',
+    name: 'bishenyi',
+    location: { latitude: 20, longitude: 20 },
+    manager_id: 'a26a83d8-ebf9-41fc-bfd8-4f54596d3ee5',
+    created_at: 2025-10-16T08:24:20.870Z
+  }
+]
+2025-10-16 13:48:10 +03:00: Stations returned: [
+  {
+    id: 'e605ef56-1370-463c-ae36-eb7511041a69',
+    name: 'bishenyi',
+    location: { latitude: 20, longitude: 20 },
+    manager_id: 'a26a83d8-ebf9-41fc-bfd8-4f54596d3ee5',
+    created_at: 2025-10-16T08:24:20.870Z
+  }
+]
+2025-10-16 13:57:17 +03:00: Stations returned: [
+  {
+    id: 'e605ef56-1370-463c-ae36-eb7511041a69',
+    name: 'bishenyi',
+    location: { latitude: 20, longitude: 20 },
+    manager_id: 'a26a83d8-ebf9-41fc-bfd8-4f54596d3ee5',
+    created_at: 2025-10-16T08:24:20.870Z
+  }
+]
+2025-10-16 15:53:25 +03:00: the received user_id is: 31a9c500-0496-4273-a736-3843adbdd841
+2025-10-16 15:56:22 +03:00: Stations returned: [
+  {
+    id: 'e605ef56-1370-463c-ae36-eb7511041a69',
+    name: 'bishenyi',
+    location: { latitude: 20, longitude: 20 },
+    manager_id: 'a26a83d8-ebf9-41fc-bfd8-4f54596d3ee5',
+    created_at: 2025-10-16T08:24:20.870Z
+  }
+]
+2025-10-16 16:00:59 +03:00: Stations returned: [
+  {
+    id: 'e605ef56-1370-463c-ae36-eb7511041a69',
+    name: 'bishenyi',
+    location: { latitude: 20, longitude: 20 },
+    manager_id: 'a26a83d8-ebf9-41fc-bfd8-4f54596d3ee5',
+    created_at: 2025-10-16T08:24:20.870Z
+  }
+]
+2025-10-16 16:04:18 +03:00: the received user_id is: a26a83d8-ebf9-41fc-bfd8-4f54596d3ee5
+2025-10-16 16:08:31 +03:00: Server running on http://0.0.0.0:3000
+2025-10-16 16:08:31 +03:00: Database tables already exist, ensured all required columns are present
+2025-10-16 16:16:23 +03:00: Stations returned: [
+  {
+    id: 'e605ef56-1370-463c-ae36-eb7511041a69',
+    name: 'bishenyi',
+    location: { latitude: 20, longitude: 20 },
+    manager_id: 'a26a83d8-ebf9-41fc-bfd8-4f54596d3ee5',
+    created_at: 2025-10-16T08:24:20.870Z
+  }
+]
+2025-10-16 16:16:24 +03:00: Stations returned: [
+  {
+    id: 'e605ef56-1370-463c-ae36-eb7511041a69',
+    name: 'bishenyi',
+    location: { latitude: 20, longitude: 20 },
+    manager_id: 'a26a83d8-ebf9-41fc-bfd8-4f54596d3ee5',
+    created_at: 2025-10-16T08:24:20.870Z
+  }
+]
+2025-10-16 16:23:08 +03:00: Stations returned: [
+  {
+    id: 'e605ef56-1370-463c-ae36-eb7511041a69',
+    name: 'bishenyi',
+    location: { latitude: 20, longitude: 20 },
+    manager_id: 'a26a83d8-ebf9-41fc-bfd8-4f54596d3ee5',
+    created_at: 2025-10-16T08:24:20.870Z
+  }
+]
+2025-10-16 16:23:15 +03:00: Stations returned: [
+  {
+    id: 'e605ef56-1370-463c-ae36-eb7511041a69',
+    name: 'bishenyi',
+    location: { latitude: 20, longitude: 20 },
+    manager_id: 'a26a83d8-ebf9-41fc-bfd8-4f54596d3ee5',
+    created_at: 2025-10-16T08:24:20.870Z
+  }
+]
+2025-10-16 16:32:28 +03:00: Server running on http://0.0.0.0:3000
+2025-10-16 16:32:28 +03:00: Database tables already exist, ensured all required columns are present
+2025-10-16 16:37:04 +03:00: Server running on http://0.0.0.0:3000
+2025-10-16 16:37:05 +03:00: Database tables already exist, ensured all required columns are present
+2025-10-16 16:41:32 +03:00: Server running on http://0.0.0.0:3000
+2025-10-16 16:41:32 +03:00: Database tables already exist, ensured all required columns are present
+2025-10-16 16:45:29 +03:00: Server running on http://0.0.0.0:3000
+2025-10-16 16:45:29 +03:00: Database tables already exist, ensured all required columns are present
+2025-10-16 16:48:36 +03:00: Server running on http://0.0.0.0:3000
+2025-10-16 16:48:36 +03:00: Database tables already exist, ensured all required columns are present
+2025-10-16 16:49:55 +03:00: Server running on http://0.0.0.0:3000
+2025-10-16 16:49:55 +03:00: Database tables already exist, ensured all required columns are present
+2025-10-16 16:53:27 +03:00: Server running on http://0.0.0.0:3000
+2025-10-16 16:53:27 +03:00: Database tables already exist, ensured all required columns are present
+2025-10-16 16:58:05 +03:00: Server running on http://0.0.0.0:3000
+2025-10-16 16:58:05 +03:00: Database tables already exist, ensured all required columns are present
+2025-10-16 17:49:19 +03:00: Server running on http://0.0.0.0:3000
+2025-10-16 17:49:20 +03:00: Database tables already exist, ensured all required columns are present
+2025-10-17 21:01:34 +03:00: Server running on http://0.0.0.0:3000
+2025-10-17 21:01:34 +03:00: Database tables already exist, ensured all required columns are present
+2025-10-17 21:02:00 +03:00: Stations returned: [
+  {
+    id: 'ffe08d25-7c68-4065-bc75-a0e5db37c643',
+    name: 'Nyabugogo 1',
+    location: {
+      latitude: -1.940685,
+      longitude: 30.046401,
+      coordinates: '-1.940685,30.046401'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.690Z
+  },
+  {
+    id: 'c09f9a2c-08d1-4c53-82bc-405c9bcc8491',
+    name: 'Centre Ville',
+    location: {
+      latitude: -1.950179,
+      longitude: 30.061072,
+      coordinates: '-1.950179,30.061072'
+    },
+    manager_id: '551bfe26-9d9d-42b9-bb18-a5a76bdb4657',
+    created_at: 2025-10-16T13:59:37.697Z
+  },
+  {
+    id: 'dd0bdc84-2afe-4686-a69c-03e202dc6188',
+    name: 'Musanze 1',
+    location: {
+      latitude: -1.508407,
+      longitude: 29.640613,
+      coordinates: '-1.508407,29.640613'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.699Z
+  },
+  {
+    id: '0d2a3343-9322-44ec-a339-99fc0eb4a7c7',
+    name: 'Kanombe 1',
+    location: {
+      latitude: -1.955949,
+      longitude: 30.144169,
+      coordinates: '-1.955949,30.144169'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.702Z
+  },
+  {
+    id: 'fe696124-349c-4041-943d-894659a2595f',
+    name: 'Remera 3 / GIPOROSO',
+    location: {
+      latitude: -1.960441,
+      longitude: 30.119796,
+      coordinates: '-1.960441,30.119796'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.703Z
+  },
+  {
+    id: 'dd80ab46-a87a-49ca-8ce9-9a09f2af5f80',
+    name: 'Nyabugogo 2',
+    location: {
+      latitude: -1.941917,
+      longitude: 30.043896,
+      coordinates: '-1.941917,30.043896'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.704Z
+  },
+  {
+    id: 'da1bfc0d-1fdd-4090-808a-d0499ad58db5',
+    name: 'Kabeza',
+    location: {
+      latitude: -1.970773,
+      longitude: 30.125069,
+      coordinates: '-1.970773,30.125069'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.705Z
+  },
+  {
+    id: '449f107c-a745-40ef-b95b-1e041d3ec106',
+    name: 'ISHEMA',
+    location: {
+      latitude: -1.946556,
+      longitude: 30.061066,
+      coordinates: '-1.946556,30.061066'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.706Z
+  },
+  {
+    id: 'd54cbfa1-223f-45c7-880e-3456f521f679',
+    name: 'Huye 1',
+    location: {
+      latitude: -2.603164,
+      longitude: 29.741204,
+      coordinates: '-2.603164,29.741204'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.708Z
+  },
+  {
+    id: '218221a8-3490-4ced-921e-7e22c4e839df',
+    name: 'Rusizi 2',
+    location: {
+      latitude: -2.474871,
+      longitude: 28.907005,
+      coordinates: '-2.474871,28.907005'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.709Z
+  },
+  {
+    id: 'b2b390b6-c546-4a3e-979b-f3ca535f9dcc',
+    name: 'Rubavu',
+    location: {
+      latitude: -1.703321,
+      longitude: 29.262043,
+      coordinates: '-1.703321,29.262043'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.711Z
+  },
+  {
+    id: '9b8c49e9-98cf-4902-8af4-f4e4c6a771f8',
+    name: 'Nyamirambo',
+    location: {
+      latitude: -1.977937,
+      longitude: 30.05118,
+      coordinates: '-1.977937,30.05118'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.713Z
+  },
+  {
+    id: '110ddb87-3d61-443e-9403-ce5276e18260',
+    name: 'City',
+    location: {
+      latitude: -1.944712,
+      longitude: 30.059582,
+      coordinates: '-1.944712,30.059582'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.714Z
+  },
+  {
+    id: '85c484df-5cfc-4dad-8cff-0cdd9a29e69c',
+    name: 'Kayonza',
+    location: {
+      latitude: -1.901683,
+      longitude: 30.507554,
+      coordinates: '-1.901683,30.507554'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.714Z
+  },
+  {
+    id: 'e603eb3e-a62a-4e85-9389-5f2f2ab142d3',
+    name: 'Gatsata',
+    location: {
+      latitude: -1.927546,
+      longitude: 30.046594,
+      coordinates: '-1.927546,30.046594'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.715Z
+  },
+  {
+    id: 'f8c6c10c-6c55-4ab8-bfba-b55acc1fc832',
+    name: 'Rwamagana',
+    location: {
+      latitude: -1.948722,
+      longitude: 30.443082,
+      coordinates: '-1.948722,30.443082'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.716Z
+  },
+  {
+    id: '6c0d213e-b796-426a-9cfb-a3545eea37b5',
+    name: 'Nyamagabe',
+    location: {
+      latitude: -2.471812,
+      longitude: 29.580373,
+      coordinates: '-2.471812,29.580373'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.717Z
+  },
+  {
+    id: '533aaa4e-96e0-4ac6-9c67-7fed59cf47fd',
+    name: 'Nyirangarama',
+    location: {
+      latitude: -1.663481,
+      longitude: 29.887421,
+      coordinates: '-1.663481,29.887421'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.718Z
+  },
+  {
+    id: '6334955d-d774-4274-bc02-1cddfa7f4f98',
+    name: 'Muhanga',
+    location: {
+      latitude: -2.077268,
+      longitude: 29.771619,
+      coordinates: '-2.077268,29.771619'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.719Z
+  },
+  {
+    id: '094f5ef8-78f5-4b49-8d88-a10574964504',
+    name: 'Huye 2',
+    location: {
+      latitude: -2.589771,
+      longitude: 29.741815,
+      coordinates: '-2.589771,29.741815'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.720Z
+  },
+  {
+    id: '8a8dc7ab-13eb-429b-aba2-12cdaacf5d63',
+    name: 'Commerce',
+    location: {
+      latitude: -1.946793,
+      longitude: 30.058529,
+      coordinates: '-1.946793,30.058529'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.721Z
+  },
+  {
+    id: 'bc8484b4-bde7-4618-8161-04673fa8d6d3',
+    name: 'Rusizi 1',
+    location: {
+      latitude: -2.491732,
+      longitude: 28.893427,
+      coordinates: '-2.491732,28.893427'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.722Z
+  },
+  {
+    id: '9c0444a1-4175-401b-85b5-aec95b51e150',
+    name: 'Musanze 2',
+    location: {
+      latitude: -1.509548,
+      longitude: 29.647235,
+      coordinates: '-1.509548,29.647235'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.723Z
+  },
+  {
+    id: '6bc2fcd7-6f16-4f74-a3d1-1b75fb8be2c5',
+    name: 'Bugarama',
+    location: {
+      latitude: -2.696493,
+      longitude: 29.006891,
+      coordinates: '-2.696493,29.006891'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.723Z
+  },
+  {
+    id: 'b379c639-b74c-4fcf-9af9-7fd047989ab9',
+    name: 'Nyamata 2 /VILLE',
+    location: {
+      latitude: -2.139738,
+      longitude: 30.082002,
+      coordinates: '-2.139738,30.082002'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.724Z
+  },
+  {
+    id: 'a2d1b556-8b71-4cbe-9080-53751eaf99e1',
+    name: 'Ryabega',
+    location: {
+      latitude: -1.3627,
+      longitude: 30.369015,
+      coordinates: '-1.3627,30.369015'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.725Z
+  },
+  {
+    id: 'b80be48b-e55b-4092-bd80-f83f62ec32aa',
+    name: 'Gako',
+    location: {
+      latitude: -2.22563,
+      longitude: 30.158995,
+      coordinates: '-2.22563,30.158995'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.725Z
+  },
+  {
+    id: '47ee5c6c-e0c7-4e29-b91c-99004bd5e927',
+    name: 'Ngoma 2',
+    location: {
+      latitude: -2.137712,
+      longitude: 30.558096,
+      coordinates: '-2.137712,30.558096'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.726Z
+  },
+  {
+    id: '15b5d596-51a6-4bfb-88a1-7bf5fb8d50aa',
+    name: 'Nyamata 1/GAHEMBE',
+    location: {
+      latitude: -2.178582,
+      longitude: 30.102278,
+      coordinates: '-2.178582,30.102278'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.726Z
+  },
+  {
+    id: '2f3c116f-7543-48eb-a518-473cfabecbac',
+    name: 'Rubengera',
+    location: {
+      latitude: -2.05847,
+      longitude: 29.411253,
+      coordinates: '-2.05847,29.411253'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.727Z
+  },
+  {
+    id: 'af56bccc-bb23-4755-96fc-432b8f36ad05',
+    name: 'Kirehe',
+    location: {
+      latitude: -2.200835,
+      longitude: 30.562364,
+      coordinates: '-2.200835,30.562364'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.728Z
+  },
+  {
+    id: '76a451fa-5d12-443a-9b6f-ca501198579a',
+    name: 'Nyagatare',
+    location: {
+      latitude: -1.301166,
+      longitude: 30.32071,
+      coordinates: '-1.301166,30.32071'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.728Z
+  },
+  {
+    id: 'b936b3e8-2366-4c8d-b52d-eec55ed8c882',
+    name: 'Matimba',
+    location: {
+      latitude: -1.117287,
+      longitude: 30.427844,
+      coordinates: '-1.117287,30.427844'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.729Z
+  },
+  {
+    id: '852f2a5a-54e9-44cc-b31e-c451348cf81a',
+    name: 'Kanzenze',
+    location: {
+      latitude: -2.08012,
+      longitude: 30.096585,
+      coordinates: '-2.08012,30.096585'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.730Z
+  },
+  {
+    id: 'ea6a643e-c9ce-4265-b86d-aa4a1c1541f7',
+    name: 'Rusumo',
+    location: {
+      latitude: -2.382503,
+      longitude: 30.775952,
+      coordinates: '-2.382503,30.775952'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.731Z
+  },
+  {
+    id: 'f4a58230-08a8-49dd-a7be-55a55b16026c',
+    name: 'Kimisagara',
+    location: {
+      latitude: -1.955435,
+      longitude: 30.053486,
+      coordinates: '-1.955435,30.053486'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.732Z
+  },
+  {
+    id: '9940fda2-8340-4e09-a7f3-03991314fc59',
+    name: 'SP KIYOVU',
+    location: {
+      latitude: -1.952679,
+      longitude: 30.073808,
+      coordinates: '-1.952679,30.073808'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.733Z
+  },
+  {
+    id: '8aaa643e-2af1-46fc-9b4c-69aef546ad49',
+    name: 'SP NYARUGENGE',
+    location: {
+      latitude: -1.947026,
+      longitude: 30.054578,
+      coordinates: '-1.947026,30.054578'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.734Z
+  },
+  {
+    id: 'ccd61fc3-fc19-4b0d-b1e6-dee933b38beb',
+    name: 'SP  NYAMASHEKE',
+    location: {
+      latitude: -2.344984,
+      longitude: 29.087738,
+      coordinates: '-2.344984,29.087738'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.735Z
+  },
+  {
+    id: 'dc893348-41f5-42c4-b812-1da351a604d0',
+    name: 'SP GATENGA',
+    location: {
+      latitude: -1.976865,
+      longitude: 30.090384,
+      coordinates: '-1.976865,30.090384'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.737Z
+  },
+  {
+    id: 'ecde7546-5a69-4904-bcdc-f822a03a5923',
+    name: 'SP REMERA 2',
+    location: {
+      latitude: -1.959865,
+      longitude: 30.117298,
+      coordinates: '-1.959865,30.117298'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.738Z
+  },
+  {
+    id: 'ed2e3f93-da73-4bb3-b7fa-406ed1fdf8c0',
+    name: 'SP NYANZA',
+    location: {
+      latitude: -2.352828,
+      longitude: 29.752664,
+      coordinates: '-2.352828,29.752664'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.739Z
+  },
+  {
+    id: '4dfac52f-c37f-4c9b-80b5-3696f0d25693',
+    name: 'SP NGOMA 1',
+    location: {
+      latitude: -2.137423,
+      longitude: 30.557116,
+      coordinates: '-2.137423,30.557116'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.741Z
+  },
+  {
+    id: 'd573d3f2-f882-4a89-b82d-9ab56d5b7d54',
+    name: 'SP KABUGA',
+    location: {
+      latitude: -1.979411,
+      longitude: 30.221307,
+      coordinates: '-1.979411,30.221307'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.742Z
+  },
+  {
+    id: '43272c65-23fe-44bf-82c9-8ace64cc3432',
+    name: 'SP KITABI',
+    location: {
+      latitude: -2.519438,
+      longitude: 29.433078,
+      coordinates: '-2.519438,29.433078'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.743Z
+  },
+  {
+    id: '17a1917f-307a-4124-bdcf-0f67b9e86b92',
+    name: 'SP KIBEHO',
+    location: {
+      latitude: -2.648005,
+      longitude: 29.561001,
+      coordinates: '-2.648005,29.561001'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.745Z
+  },
+  {
+    id: 'f2b8c9c9-5ae2-4b68-b613-92e3755a54e9',
+    name: 'SP GICUMBI',
+    location: {
+      latitude: -1.585302,
+      longitude: 30.073813,
+      coordinates: '-1.585302,30.073813'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.746Z
+  },
+  {
+    id: '1a98a288-6398-48fa-80f4-82f05fbb49dd',
+    name: 'SP KINIGI',
+    location: {
+      latitude: -1.449853,
+      longitude: 29.591666,
+      coordinates: '-1.449853,29.591666'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.747Z
+  },
+  {
+    id: '7178ce5e-f44d-4f76-8a39-ffeaaa0d0273',
+    name: 'SP KIMIRONKO',
+    location: {
+      latitude: -1.928553,
+      longitude: 30.139612,
+      coordinates: '-1.928553,30.139612'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.748Z
+  },
+  {
+    id: '4ef33322-aaef-459a-b291-2ebacf49ce3c',
+    name: 'SP RUHUHA',
+    location: {
+      latitude: -2.298189,
+      longitude: 30.040193,
+      coordinates: '-2.298189,30.040193'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.750Z
+  },
+  {
+    id: 'c27ff082-2ff9-4551-84e9-62f0eadc5418',
+    name: 'SP KICUKIRO',
+    location: {
+      latitude: -1.985096,
+      longitude: 30.103057,
+      coordinates: '-1.985096,30.103057'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.751Z
+  },
+  {
+    id: 'c3cda59b-8e0f-4167-9a52-bee1f743bcb4',
+    name: 'SP NORVEGE',
+    location: {
+      latitude: -1.967587,
+      longitude: 30.028125,
+      coordinates: '-1.967587,30.028125'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.752Z
+  },
+  {
+    id: 'ca22bcbc-609b-4c3d-8969-edb5abeb60d2',
+    name: 'SP NYARUTARAMA 2',
+    location: {
+      latitude: -1.925681,
+      longitude: 30.102775,
+      coordinates: '-1.925681,30.102775'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.754Z
+  },
+  {
+    id: '2168dbd8-ffb8-4856-90aa-ee0d04075bbf',
+    name: 'SP REBERO',
+    location: {
+      latitude: -1.998909,
+      longitude: 30.08404,
+      coordinates: '-1.998909,30.08404'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.755Z
+  },
+  {
+    id: '63ef72c8-60ce-4c98-89eb-98f7495045eb',
+    name: 'Nyarutarama',
+    location: {
+      latitude: -1.951094,
+      longitude: 30.103468,
+      coordinates: '-1.951094,30.103468'
+    },
+    manager_id: 'bda0574f-e2df-46da-ba7a-bd5eab6dd587',
+    created_at: 2025-10-16T13:59:37.698Z
+  }
+]
+2025-10-17 21:02:06 +03:00: Stations returned: [
+  {
+    id: 'ffe08d25-7c68-4065-bc75-a0e5db37c643',
+    name: 'Nyabugogo 1',
+    location: {
+      latitude: -1.940685,
+      longitude: 30.046401,
+      coordinates: '-1.940685,30.046401'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.690Z
+  },
+  {
+    id: 'c09f9a2c-08d1-4c53-82bc-405c9bcc8491',
+    name: 'Centre Ville',
+    location: {
+      latitude: -1.950179,
+      longitude: 30.061072,
+      coordinates: '-1.950179,30.061072'
+    },
+    manager_id: '551bfe26-9d9d-42b9-bb18-a5a76bdb4657',
+    created_at: 2025-10-16T13:59:37.697Z
+  },
+  {
+    id: 'dd0bdc84-2afe-4686-a69c-03e202dc6188',
+    name: 'Musanze 1',
+    location: {
+      latitude: -1.508407,
+      longitude: 29.640613,
+      coordinates: '-1.508407,29.640613'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.699Z
+  },
+  {
+    id: '0d2a3343-9322-44ec-a339-99fc0eb4a7c7',
+    name: 'Kanombe 1',
+    location: {
+      latitude: -1.955949,
+      longitude: 30.144169,
+      coordinates: '-1.955949,30.144169'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.702Z
+  },
+  {
+    id: 'fe696124-349c-4041-943d-894659a2595f',
+    name: 'Remera 3 / GIPOROSO',
+    location: {
+      latitude: -1.960441,
+      longitude: 30.119796,
+      coordinates: '-1.960441,30.119796'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.703Z
+  },
+  {
+    id: 'dd80ab46-a87a-49ca-8ce9-9a09f2af5f80',
+    name: 'Nyabugogo 2',
+    location: {
+      latitude: -1.941917,
+      longitude: 30.043896,
+      coordinates: '-1.941917,30.043896'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.704Z
+  },
+  {
+    id: 'da1bfc0d-1fdd-4090-808a-d0499ad58db5',
+    name: 'Kabeza',
+    location: {
+      latitude: -1.970773,
+      longitude: 30.125069,
+      coordinates: '-1.970773,30.125069'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.705Z
+  },
+  {
+    id: '449f107c-a745-40ef-b95b-1e041d3ec106',
+    name: 'ISHEMA',
+    location: {
+      latitude: -1.946556,
+      longitude: 30.061066,
+      coordinates: '-1.946556,30.061066'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.706Z
+  },
+  {
+    id: 'd54cbfa1-223f-45c7-880e-3456f521f679',
+    name: 'Huye 1',
+    location: {
+      latitude: -2.603164,
+      longitude: 29.741204,
+      coordinates: '-2.603164,29.741204'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.708Z
+  },
+  {
+    id: '218221a8-3490-4ced-921e-7e22c4e839df',
+    name: 'Rusizi 2',
+    location: {
+      latitude: -2.474871,
+      longitude: 28.907005,
+      coordinates: '-2.474871,28.907005'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.709Z
+  },
+  {
+    id: 'b2b390b6-c546-4a3e-979b-f3ca535f9dcc',
+    name: 'Rubavu',
+    location: {
+      latitude: -1.703321,
+      longitude: 29.262043,
+      coordinates: '-1.703321,29.262043'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.711Z
+  },
+  {
+    id: '9b8c49e9-98cf-4902-8af4-f4e4c6a771f8',
+    name: 'Nyamirambo',
+    location: {
+      latitude: -1.977937,
+      longitude: 30.05118,
+      coordinates: '-1.977937,30.05118'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.713Z
+  },
+  {
+    id: '110ddb87-3d61-443e-9403-ce5276e18260',
+    name: 'City',
+    location: {
+      latitude: -1.944712,
+      longitude: 30.059582,
+      coordinates: '-1.944712,30.059582'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.714Z
+  },
+  {
+    id: '85c484df-5cfc-4dad-8cff-0cdd9a29e69c',
+    name: 'Kayonza',
+    location: {
+      latitude: -1.901683,
+      longitude: 30.507554,
+      coordinates: '-1.901683,30.507554'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.714Z
+  },
+  {
+    id: 'e603eb3e-a62a-4e85-9389-5f2f2ab142d3',
+    name: 'Gatsata',
+    location: {
+      latitude: -1.927546,
+      longitude: 30.046594,
+      coordinates: '-1.927546,30.046594'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.715Z
+  },
+  {
+    id: 'f8c6c10c-6c55-4ab8-bfba-b55acc1fc832',
+    name: 'Rwamagana',
+    location: {
+      latitude: -1.948722,
+      longitude: 30.443082,
+      coordinates: '-1.948722,30.443082'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.716Z
+  },
+  {
+    id: '6c0d213e-b796-426a-9cfb-a3545eea37b5',
+    name: 'Nyamagabe',
+    location: {
+      latitude: -2.471812,
+      longitude: 29.580373,
+      coordinates: '-2.471812,29.580373'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.717Z
+  },
+  {
+    id: '533aaa4e-96e0-4ac6-9c67-7fed59cf47fd',
+    name: 'Nyirangarama',
+    location: {
+      latitude: -1.663481,
+      longitude: 29.887421,
+      coordinates: '-1.663481,29.887421'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.718Z
+  },
+  {
+    id: '6334955d-d774-4274-bc02-1cddfa7f4f98',
+    name: 'Muhanga',
+    location: {
+      latitude: -2.077268,
+      longitude: 29.771619,
+      coordinates: '-2.077268,29.771619'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.719Z
+  },
+  {
+    id: '094f5ef8-78f5-4b49-8d88-a10574964504',
+    name: 'Huye 2',
+    location: {
+      latitude: -2.589771,
+      longitude: 29.741815,
+      coordinates: '-2.589771,29.741815'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.720Z
+  },
+  {
+    id: '8a8dc7ab-13eb-429b-aba2-12cdaacf5d63',
+    name: 'Commerce',
+    location: {
+      latitude: -1.946793,
+      longitude: 30.058529,
+      coordinates: '-1.946793,30.058529'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.721Z
+  },
+  {
+    id: 'bc8484b4-bde7-4618-8161-04673fa8d6d3',
+    name: 'Rusizi 1',
+    location: {
+      latitude: -2.491732,
+      longitude: 28.893427,
+      coordinates: '-2.491732,28.893427'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.722Z
+  },
+  {
+    id: '9c0444a1-4175-401b-85b5-aec95b51e150',
+    name: 'Musanze 2',
+    location: {
+      latitude: -1.509548,
+      longitude: 29.647235,
+      coordinates: '-1.509548,29.647235'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.723Z
+  },
+  {
+    id: '6bc2fcd7-6f16-4f74-a3d1-1b75fb8be2c5',
+    name: 'Bugarama',
+    location: {
+      latitude: -2.696493,
+      longitude: 29.006891,
+      coordinates: '-2.696493,29.006891'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.723Z
+  },
+  {
+    id: 'b379c639-b74c-4fcf-9af9-7fd047989ab9',
+    name: 'Nyamata 2 /VILLE',
+    location: {
+      latitude: -2.139738,
+      longitude: 30.082002,
+      coordinates: '-2.139738,30.082002'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.724Z
+  },
+  {
+    id: 'a2d1b556-8b71-4cbe-9080-53751eaf99e1',
+    name: 'Ryabega',
+    location: {
+      latitude: -1.3627,
+      longitude: 30.369015,
+      coordinates: '-1.3627,30.369015'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.725Z
+  },
+  {
+    id: 'b80be48b-e55b-4092-bd80-f83f62ec32aa',
+    name: 'Gako',
+    location: {
+      latitude: -2.22563,
+      longitude: 30.158995,
+      coordinates: '-2.22563,30.158995'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.725Z
+  },
+  {
+    id: '47ee5c6c-e0c7-4e29-b91c-99004bd5e927',
+    name: 'Ngoma 2',
+    location: {
+      latitude: -2.137712,
+      longitude: 30.558096,
+      coordinates: '-2.137712,30.558096'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.726Z
+  },
+  {
+    id: '15b5d596-51a6-4bfb-88a1-7bf5fb8d50aa',
+    name: 'Nyamata 1/GAHEMBE',
+    location: {
+      latitude: -2.178582,
+      longitude: 30.102278,
+      coordinates: '-2.178582,30.102278'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.726Z
+  },
+  {
+    id: '2f3c116f-7543-48eb-a518-473cfabecbac',
+    name: 'Rubengera',
+    location: {
+      latitude: -2.05847,
+      longitude: 29.411253,
+      coordinates: '-2.05847,29.411253'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.727Z
+  },
+  {
+    id: 'af56bccc-bb23-4755-96fc-432b8f36ad05',
+    name: 'Kirehe',
+    location: {
+      latitude: -2.200835,
+      longitude: 30.562364,
+      coordinates: '-2.200835,30.562364'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.728Z
+  },
+  {
+    id: '76a451fa-5d12-443a-9b6f-ca501198579a',
+    name: 'Nyagatare',
+    location: {
+      latitude: -1.301166,
+      longitude: 30.32071,
+      coordinates: '-1.301166,30.32071'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.728Z
+  },
+  {
+    id: 'b936b3e8-2366-4c8d-b52d-eec55ed8c882',
+    name: 'Matimba',
+    location: {
+      latitude: -1.117287,
+      longitude: 30.427844,
+      coordinates: '-1.117287,30.427844'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.729Z
+  },
+  {
+    id: '852f2a5a-54e9-44cc-b31e-c451348cf81a',
+    name: 'Kanzenze',
+    location: {
+      latitude: -2.08012,
+      longitude: 30.096585,
+      coordinates: '-2.08012,30.096585'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.730Z
+  },
+  {
+    id: 'ea6a643e-c9ce-4265-b86d-aa4a1c1541f7',
+    name: 'Rusumo',
+    location: {
+      latitude: -2.382503,
+      longitude: 30.775952,
+      coordinates: '-2.382503,30.775952'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.731Z
+  },
+  {
+    id: 'f4a58230-08a8-49dd-a7be-55a55b16026c',
+    name: 'Kimisagara',
+    location: {
+      latitude: -1.955435,
+      longitude: 30.053486,
+      coordinates: '-1.955435,30.053486'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.732Z
+  },
+  {
+    id: '9940fda2-8340-4e09-a7f3-03991314fc59',
+    name: 'SP KIYOVU',
+    location: {
+      latitude: -1.952679,
+      longitude: 30.073808,
+      coordinates: '-1.952679,30.073808'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.733Z
+  },
+  {
+    id: '8aaa643e-2af1-46fc-9b4c-69aef546ad49',
+    name: 'SP NYARUGENGE',
+    location: {
+      latitude: -1.947026,
+      longitude: 30.054578,
+      coordinates: '-1.947026,30.054578'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.734Z
+  },
+  {
+    id: 'ccd61fc3-fc19-4b0d-b1e6-dee933b38beb',
+    name: 'SP  NYAMASHEKE',
+    location: {
+      latitude: -2.344984,
+      longitude: 29.087738,
+      coordinates: '-2.344984,29.087738'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.735Z
+  },
+  {
+    id: 'dc893348-41f5-42c4-b812-1da351a604d0',
+    name: 'SP GATENGA',
+    location: {
+      latitude: -1.976865,
+      longitude: 30.090384,
+      coordinates: '-1.976865,30.090384'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.737Z
+  },
+  {
+    id: 'ecde7546-5a69-4904-bcdc-f822a03a5923',
+    name: 'SP REMERA 2',
+    location: {
+      latitude: -1.959865,
+      longitude: 30.117298,
+      coordinates: '-1.959865,30.117298'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.738Z
+  },
+  {
+    id: 'ed2e3f93-da73-4bb3-b7fa-406ed1fdf8c0',
+    name: 'SP NYANZA',
+    location: {
+      latitude: -2.352828,
+      longitude: 29.752664,
+      coordinates: '-2.352828,29.752664'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.739Z
+  },
+  {
+    id: '4dfac52f-c37f-4c9b-80b5-3696f0d25693',
+    name: 'SP NGOMA 1',
+    location: {
+      latitude: -2.137423,
+      longitude: 30.557116,
+      coordinates: '-2.137423,30.557116'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.741Z
+  },
+  {
+    id: 'd573d3f2-f882-4a89-b82d-9ab56d5b7d54',
+    name: 'SP KABUGA',
+    location: {
+      latitude: -1.979411,
+      longitude: 30.221307,
+      coordinates: '-1.979411,30.221307'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.742Z
+  },
+  {
+    id: '43272c65-23fe-44bf-82c9-8ace64cc3432',
+    name: 'SP KITABI',
+    location: {
+      latitude: -2.519438,
+      longitude: 29.433078,
+      coordinates: '-2.519438,29.433078'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.743Z
+  },
+  {
+    id: '17a1917f-307a-4124-bdcf-0f67b9e86b92',
+    name: 'SP KIBEHO',
+    location: {
+      latitude: -2.648005,
+      longitude: 29.561001,
+      coordinates: '-2.648005,29.561001'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.745Z
+  },
+  {
+    id: 'f2b8c9c9-5ae2-4b68-b613-92e3755a54e9',
+    name: 'SP GICUMBI',
+    location: {
+      latitude: -1.585302,
+      longitude: 30.073813,
+      coordinates: '-1.585302,30.073813'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.746Z
+  },
+  {
+    id: '1a98a288-6398-48fa-80f4-82f05fbb49dd',
+    name: 'SP KINIGI',
+    location: {
+      latitude: -1.449853,
+      longitude: 29.591666,
+      coordinates: '-1.449853,29.591666'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.747Z
+  },
+  {
+    id: '7178ce5e-f44d-4f76-8a39-ffeaaa0d0273',
+    name: 'SP KIMIRONKO',
+    location: {
+      latitude: -1.928553,
+      longitude: 30.139612,
+      coordinates: '-1.928553,30.139612'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.748Z
+  },
+  {
+    id: '4ef33322-aaef-459a-b291-2ebacf49ce3c',
+    name: 'SP RUHUHA',
+    location: {
+      latitude: -2.298189,
+      longitude: 30.040193,
+      coordinates: '-2.298189,30.040193'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.750Z
+  },
+  {
+    id: 'c27ff082-2ff9-4551-84e9-62f0eadc5418',
+    name: 'SP KICUKIRO',
+    location: {
+      latitude: -1.985096,
+      longitude: 30.103057,
+      coordinates: '-1.985096,30.103057'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.751Z
+  },
+  {
+    id: 'c3cda59b-8e0f-4167-9a52-bee1f743bcb4',
+    name: 'SP NORVEGE',
+    location: {
+      latitude: -1.967587,
+      longitude: 30.028125,
+      coordinates: '-1.967587,30.028125'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.752Z
+  },
+  {
+    id: 'ca22bcbc-609b-4c3d-8969-edb5abeb60d2',
+    name: 'SP NYARUTARAMA 2',
+    location: {
+      latitude: -1.925681,
+      longitude: 30.102775,
+      coordinates: '-1.925681,30.102775'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.754Z
+  },
+  {
+    id: '2168dbd8-ffb8-4856-90aa-ee0d04075bbf',
+    name: 'SP REBERO',
+    location: {
+      latitude: -1.998909,
+      longitude: 30.08404,
+      coordinates: '-1.998909,30.08404'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.755Z
+  },
+  {
+    id: '63ef72c8-60ce-4c98-89eb-98f7495045eb',
+    name: 'Nyarutarama',
+    location: {
+      latitude: -1.951094,
+      longitude: 30.103468,
+      coordinates: '-1.951094,30.103468'
+    },
+    manager_id: 'bda0574f-e2df-46da-ba7a-bd5eab6dd587',
+    created_at: 2025-10-16T13:59:37.698Z
+  }
+]
+2025-10-17 21:02:08 +03:00: Stations returned: [
+  {
+    id: 'ffe08d25-7c68-4065-bc75-a0e5db37c643',
+    name: 'Nyabugogo 1',
+    location: {
+      latitude: -1.940685,
+      longitude: 30.046401,
+      coordinates: '-1.940685,30.046401'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.690Z
+  },
+  {
+    id: 'c09f9a2c-08d1-4c53-82bc-405c9bcc8491',
+    name: 'Centre Ville',
+    location: {
+      latitude: -1.950179,
+      longitude: 30.061072,
+      coordinates: '-1.950179,30.061072'
+    },
+    manager_id: '551bfe26-9d9d-42b9-bb18-a5a76bdb4657',
+    created_at: 2025-10-16T13:59:37.697Z
+  },
+  {
+    id: 'dd0bdc84-2afe-4686-a69c-03e202dc6188',
+    name: 'Musanze 1',
+    location: {
+      latitude: -1.508407,
+      longitude: 29.640613,
+      coordinates: '-1.508407,29.640613'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.699Z
+  },
+  {
+    id: '0d2a3343-9322-44ec-a339-99fc0eb4a7c7',
+    name: 'Kanombe 1',
+    location: {
+      latitude: -1.955949,
+      longitude: 30.144169,
+      coordinates: '-1.955949,30.144169'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.702Z
+  },
+  {
+    id: 'fe696124-349c-4041-943d-894659a2595f',
+    name: 'Remera 3 / GIPOROSO',
+    location: {
+      latitude: -1.960441,
+      longitude: 30.119796,
+      coordinates: '-1.960441,30.119796'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.703Z
+  },
+  {
+    id: 'dd80ab46-a87a-49ca-8ce9-9a09f2af5f80',
+    name: 'Nyabugogo 2',
+    location: {
+      latitude: -1.941917,
+      longitude: 30.043896,
+      coordinates: '-1.941917,30.043896'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.704Z
+  },
+  {
+    id: 'da1bfc0d-1fdd-4090-808a-d0499ad58db5',
+    name: 'Kabeza',
+    location: {
+      latitude: -1.970773,
+      longitude: 30.125069,
+      coordinates: '-1.970773,30.125069'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.705Z
+  },
+  {
+    id: '449f107c-a745-40ef-b95b-1e041d3ec106',
+    name: 'ISHEMA',
+    location: {
+      latitude: -1.946556,
+      longitude: 30.061066,
+      coordinates: '-1.946556,30.061066'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.706Z
+  },
+  {
+    id: 'd54cbfa1-223f-45c7-880e-3456f521f679',
+    name: 'Huye 1',
+    location: {
+      latitude: -2.603164,
+      longitude: 29.741204,
+      coordinates: '-2.603164,29.741204'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.708Z
+  },
+  {
+    id: '218221a8-3490-4ced-921e-7e22c4e839df',
+    name: 'Rusizi 2',
+    location: {
+      latitude: -2.474871,
+      longitude: 28.907005,
+      coordinates: '-2.474871,28.907005'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.709Z
+  },
+  {
+    id: 'b2b390b6-c546-4a3e-979b-f3ca535f9dcc',
+    name: 'Rubavu',
+    location: {
+      latitude: -1.703321,
+      longitude: 29.262043,
+      coordinates: '-1.703321,29.262043'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.711Z
+  },
+  {
+    id: '9b8c49e9-98cf-4902-8af4-f4e4c6a771f8',
+    name: 'Nyamirambo',
+    location: {
+      latitude: -1.977937,
+      longitude: 30.05118,
+      coordinates: '-1.977937,30.05118'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.713Z
+  },
+  {
+    id: '110ddb87-3d61-443e-9403-ce5276e18260',
+    name: 'City',
+    location: {
+      latitude: -1.944712,
+      longitude: 30.059582,
+      coordinates: '-1.944712,30.059582'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.714Z
+  },
+  {
+    id: '85c484df-5cfc-4dad-8cff-0cdd9a29e69c',
+    name: 'Kayonza',
+    location: {
+      latitude: -1.901683,
+      longitude: 30.507554,
+      coordinates: '-1.901683,30.507554'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.714Z
+  },
+  {
+    id: 'e603eb3e-a62a-4e85-9389-5f2f2ab142d3',
+    name: 'Gatsata',
+    location: {
+      latitude: -1.927546,
+      longitude: 30.046594,
+      coordinates: '-1.927546,30.046594'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.715Z
+  },
+  {
+    id: 'f8c6c10c-6c55-4ab8-bfba-b55acc1fc832',
+    name: 'Rwamagana',
+    location: {
+      latitude: -1.948722,
+      longitude: 30.443082,
+      coordinates: '-1.948722,30.443082'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.716Z
+  },
+  {
+    id: '6c0d213e-b796-426a-9cfb-a3545eea37b5',
+    name: 'Nyamagabe',
+    location: {
+      latitude: -2.471812,
+      longitude: 29.580373,
+      coordinates: '-2.471812,29.580373'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.717Z
+  },
+  {
+    id: '533aaa4e-96e0-4ac6-9c67-7fed59cf47fd',
+    name: 'Nyirangarama',
+    location: {
+      latitude: -1.663481,
+      longitude: 29.887421,
+      coordinates: '-1.663481,29.887421'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.718Z
+  },
+  {
+    id: '6334955d-d774-4274-bc02-1cddfa7f4f98',
+    name: 'Muhanga',
+    location: {
+      latitude: -2.077268,
+      longitude: 29.771619,
+      coordinates: '-2.077268,29.771619'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.719Z
+  },
+  {
+    id: '094f5ef8-78f5-4b49-8d88-a10574964504',
+    name: 'Huye 2',
+    location: {
+      latitude: -2.589771,
+      longitude: 29.741815,
+      coordinates: '-2.589771,29.741815'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.720Z
+  },
+  {
+    id: '8a8dc7ab-13eb-429b-aba2-12cdaacf5d63',
+    name: 'Commerce',
+    location: {
+      latitude: -1.946793,
+      longitude: 30.058529,
+      coordinates: '-1.946793,30.058529'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.721Z
+  },
+  {
+    id: 'bc8484b4-bde7-4618-8161-04673fa8d6d3',
+    name: 'Rusizi 1',
+    location: {
+      latitude: -2.491732,
+      longitude: 28.893427,
+      coordinates: '-2.491732,28.893427'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.722Z
+  },
+  {
+    id: '9c0444a1-4175-401b-85b5-aec95b51e150',
+    name: 'Musanze 2',
+    location: {
+      latitude: -1.509548,
+      longitude: 29.647235,
+      coordinates: '-1.509548,29.647235'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.723Z
+  },
+  {
+    id: '6bc2fcd7-6f16-4f74-a3d1-1b75fb8be2c5',
+    name: 'Bugarama',
+    location: {
+      latitude: -2.696493,
+      longitude: 29.006891,
+      coordinates: '-2.696493,29.006891'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.723Z
+  },
+  {
+    id: 'b379c639-b74c-4fcf-9af9-7fd047989ab9',
+    name: 'Nyamata 2 /VILLE',
+    location: {
+      latitude: -2.139738,
+      longitude: 30.082002,
+      coordinates: '-2.139738,30.082002'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.724Z
+  },
+  {
+    id: 'a2d1b556-8b71-4cbe-9080-53751eaf99e1',
+    name: 'Ryabega',
+    location: {
+      latitude: -1.3627,
+      longitude: 30.369015,
+      coordinates: '-1.3627,30.369015'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.725Z
+  },
+  {
+    id: 'b80be48b-e55b-4092-bd80-f83f62ec32aa',
+    name: 'Gako',
+    location: {
+      latitude: -2.22563,
+      longitude: 30.158995,
+      coordinates: '-2.22563,30.158995'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.725Z
+  },
+  {
+    id: '47ee5c6c-e0c7-4e29-b91c-99004bd5e927',
+    name: 'Ngoma 2',
+    location: {
+      latitude: -2.137712,
+      longitude: 30.558096,
+      coordinates: '-2.137712,30.558096'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.726Z
+  },
+  {
+    id: '15b5d596-51a6-4bfb-88a1-7bf5fb8d50aa',
+    name: 'Nyamata 1/GAHEMBE',
+    location: {
+      latitude: -2.178582,
+      longitude: 30.102278,
+      coordinates: '-2.178582,30.102278'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.726Z
+  },
+  {
+    id: '2f3c116f-7543-48eb-a518-473cfabecbac',
+    name: 'Rubengera',
+    location: {
+      latitude: -2.05847,
+      longitude: 29.411253,
+      coordinates: '-2.05847,29.411253'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.727Z
+  },
+  {
+    id: 'af56bccc-bb23-4755-96fc-432b8f36ad05',
+    name: 'Kirehe',
+    location: {
+      latitude: -2.200835,
+      longitude: 30.562364,
+      coordinates: '-2.200835,30.562364'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.728Z
+  },
+  {
+    id: '76a451fa-5d12-443a-9b6f-ca501198579a',
+    name: 'Nyagatare',
+    location: {
+      latitude: -1.301166,
+      longitude: 30.32071,
+      coordinates: '-1.301166,30.32071'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.728Z
+  },
+  {
+    id: 'b936b3e8-2366-4c8d-b52d-eec55ed8c882',
+    name: 'Matimba',
+    location: {
+      latitude: -1.117287,
+      longitude: 30.427844,
+      coordinates: '-1.117287,30.427844'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.729Z
+  },
+  {
+    id: '852f2a5a-54e9-44cc-b31e-c451348cf81a',
+    name: 'Kanzenze',
+    location: {
+      latitude: -2.08012,
+      longitude: 30.096585,
+      coordinates: '-2.08012,30.096585'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.730Z
+  },
+  {
+    id: 'ea6a643e-c9ce-4265-b86d-aa4a1c1541f7',
+    name: 'Rusumo',
+    location: {
+      latitude: -2.382503,
+      longitude: 30.775952,
+      coordinates: '-2.382503,30.775952'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.731Z
+  },
+  {
+    id: 'f4a58230-08a8-49dd-a7be-55a55b16026c',
+    name: 'Kimisagara',
+    location: {
+      latitude: -1.955435,
+      longitude: 30.053486,
+      coordinates: '-1.955435,30.053486'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.732Z
+  },
+  {
+    id: '9940fda2-8340-4e09-a7f3-03991314fc59',
+    name: 'SP KIYOVU',
+    location: {
+      latitude: -1.952679,
+      longitude: 30.073808,
+      coordinates: '-1.952679,30.073808'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.733Z
+  },
+  {
+    id: '8aaa643e-2af1-46fc-9b4c-69aef546ad49',
+    name: 'SP NYARUGENGE',
+    location: {
+      latitude: -1.947026,
+      longitude: 30.054578,
+      coordinates: '-1.947026,30.054578'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.734Z
+  },
+  {
+    id: 'ccd61fc3-fc19-4b0d-b1e6-dee933b38beb',
+    name: 'SP  NYAMASHEKE',
+    location: {
+      latitude: -2.344984,
+      longitude: 29.087738,
+      coordinates: '-2.344984,29.087738'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.735Z
+  },
+  {
+    id: 'dc893348-41f5-42c4-b812-1da351a604d0',
+    name: 'SP GATENGA',
+    location: {
+      latitude: -1.976865,
+      longitude: 30.090384,
+      coordinates: '-1.976865,30.090384'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.737Z
+  },
+  {
+    id: 'ecde7546-5a69-4904-bcdc-f822a03a5923',
+    name: 'SP REMERA 2',
+    location: {
+      latitude: -1.959865,
+      longitude: 30.117298,
+      coordinates: '-1.959865,30.117298'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.738Z
+  },
+  {
+    id: 'ed2e3f93-da73-4bb3-b7fa-406ed1fdf8c0',
+    name: 'SP NYANZA',
+    location: {
+      latitude: -2.352828,
+      longitude: 29.752664,
+      coordinates: '-2.352828,29.752664'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.739Z
+  },
+  {
+    id: '4dfac52f-c37f-4c9b-80b5-3696f0d25693',
+    name: 'SP NGOMA 1',
+    location: {
+      latitude: -2.137423,
+      longitude: 30.557116,
+      coordinates: '-2.137423,30.557116'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.741Z
+  },
+  {
+    id: 'd573d3f2-f882-4a89-b82d-9ab56d5b7d54',
+    name: 'SP KABUGA',
+    location: {
+      latitude: -1.979411,
+      longitude: 30.221307,
+      coordinates: '-1.979411,30.221307'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.742Z
+  },
+  {
+    id: '43272c65-23fe-44bf-82c9-8ace64cc3432',
+    name: 'SP KITABI',
+    location: {
+      latitude: -2.519438,
+      longitude: 29.433078,
+      coordinates: '-2.519438,29.433078'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.743Z
+  },
+  {
+    id: '17a1917f-307a-4124-bdcf-0f67b9e86b92',
+    name: 'SP KIBEHO',
+    location: {
+      latitude: -2.648005,
+      longitude: 29.561001,
+      coordinates: '-2.648005,29.561001'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.745Z
+  },
+  {
+    id: 'f2b8c9c9-5ae2-4b68-b613-92e3755a54e9',
+    name: 'SP GICUMBI',
+    location: {
+      latitude: -1.585302,
+      longitude: 30.073813,
+      coordinates: '-1.585302,30.073813'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.746Z
+  },
+  {
+    id: '1a98a288-6398-48fa-80f4-82f05fbb49dd',
+    name: 'SP KINIGI',
+    location: {
+      latitude: -1.449853,
+      longitude: 29.591666,
+      coordinates: '-1.449853,29.591666'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.747Z
+  },
+  {
+    id: '7178ce5e-f44d-4f76-8a39-ffeaaa0d0273',
+    name: 'SP KIMIRONKO',
+    location: {
+      latitude: -1.928553,
+      longitude: 30.139612,
+      coordinates: '-1.928553,30.139612'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.748Z
+  },
+  {
+    id: '4ef33322-aaef-459a-b291-2ebacf49ce3c',
+    name: 'SP RUHUHA',
+    location: {
+      latitude: -2.298189,
+      longitude: 30.040193,
+      coordinates: '-2.298189,30.040193'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.750Z
+  },
+  {
+    id: 'c27ff082-2ff9-4551-84e9-62f0eadc5418',
+    name: 'SP KICUKIRO',
+    location: {
+      latitude: -1.985096,
+      longitude: 30.103057,
+      coordinates: '-1.985096,30.103057'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.751Z
+  },
+  {
+    id: 'c3cda59b-8e0f-4167-9a52-bee1f743bcb4',
+    name: 'SP NORVEGE',
+    location: {
+      latitude: -1.967587,
+      longitude: 30.028125,
+      coordinates: '-1.967587,30.028125'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.752Z
+  },
+  {
+    id: 'ca22bcbc-609b-4c3d-8969-edb5abeb60d2',
+    name: 'SP NYARUTARAMA 2',
+    location: {
+      latitude: -1.925681,
+      longitude: 30.102775,
+      coordinates: '-1.925681,30.102775'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.754Z
+  },
+  {
+    id: '2168dbd8-ffb8-4856-90aa-ee0d04075bbf',
+    name: 'SP REBERO',
+    location: {
+      latitude: -1.998909,
+      longitude: 30.08404,
+      coordinates: '-1.998909,30.08404'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.755Z
+  },
+  {
+    id: '63ef72c8-60ce-4c98-89eb-98f7495045eb',
+    name: 'Nyarutarama',
+    location: {
+      latitude: -1.951094,
+      longitude: 30.103468,
+      coordinates: '-1.951094,30.103468'
+    },
+    manager_id: 'bda0574f-e2df-46da-ba7a-bd5eab6dd587',
+    created_at: 2025-10-16T13:59:37.698Z
+  }
+]
+2025-10-17 21:02:10 +03:00: Stations returned: [
+  {
+    id: 'ffe08d25-7c68-4065-bc75-a0e5db37c643',
+    name: 'Nyabugogo 1',
+    location: {
+      latitude: -1.940685,
+      longitude: 30.046401,
+      coordinates: '-1.940685,30.046401'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.690Z
+  },
+  {
+    id: 'c09f9a2c-08d1-4c53-82bc-405c9bcc8491',
+    name: 'Centre Ville',
+    location: {
+      latitude: -1.950179,
+      longitude: 30.061072,
+      coordinates: '-1.950179,30.061072'
+    },
+    manager_id: '551bfe26-9d9d-42b9-bb18-a5a76bdb4657',
+    created_at: 2025-10-16T13:59:37.697Z
+  },
+  {
+    id: 'dd0bdc84-2afe-4686-a69c-03e202dc6188',
+    name: 'Musanze 1',
+    location: {
+      latitude: -1.508407,
+      longitude: 29.640613,
+      coordinates: '-1.508407,29.640613'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.699Z
+  },
+  {
+    id: '0d2a3343-9322-44ec-a339-99fc0eb4a7c7',
+    name: 'Kanombe 1',
+    location: {
+      latitude: -1.955949,
+      longitude: 30.144169,
+      coordinates: '-1.955949,30.144169'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.702Z
+  },
+  {
+    id: 'fe696124-349c-4041-943d-894659a2595f',
+    name: 'Remera 3 / GIPOROSO',
+    location: {
+      latitude: -1.960441,
+      longitude: 30.119796,
+      coordinates: '-1.960441,30.119796'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.703Z
+  },
+  {
+    id: 'dd80ab46-a87a-49ca-8ce9-9a09f2af5f80',
+    name: 'Nyabugogo 2',
+    location: {
+      latitude: -1.941917,
+      longitude: 30.043896,
+      coordinates: '-1.941917,30.043896'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.704Z
+  },
+  {
+    id: 'da1bfc0d-1fdd-4090-808a-d0499ad58db5',
+    name: 'Kabeza',
+    location: {
+      latitude: -1.970773,
+      longitude: 30.125069,
+      coordinates: '-1.970773,30.125069'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.705Z
+  },
+  {
+    id: '449f107c-a745-40ef-b95b-1e041d3ec106',
+    name: 'ISHEMA',
+    location: {
+      latitude: -1.946556,
+      longitude: 30.061066,
+      coordinates: '-1.946556,30.061066'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.706Z
+  },
+  {
+    id: 'd54cbfa1-223f-45c7-880e-3456f521f679',
+    name: 'Huye 1',
+    location: {
+      latitude: -2.603164,
+      longitude: 29.741204,
+      coordinates: '-2.603164,29.741204'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.708Z
+  },
+  {
+    id: '218221a8-3490-4ced-921e-7e22c4e839df',
+    name: 'Rusizi 2',
+    location: {
+      latitude: -2.474871,
+      longitude: 28.907005,
+      coordinates: '-2.474871,28.907005'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.709Z
+  },
+  {
+    id: 'b2b390b6-c546-4a3e-979b-f3ca535f9dcc',
+    name: 'Rubavu',
+    location: {
+      latitude: -1.703321,
+      longitude: 29.262043,
+      coordinates: '-1.703321,29.262043'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.711Z
+  },
+  {
+    id: '9b8c49e9-98cf-4902-8af4-f4e4c6a771f8',
+    name: 'Nyamirambo',
+    location: {
+      latitude: -1.977937,
+      longitude: 30.05118,
+      coordinates: '-1.977937,30.05118'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.713Z
+  },
+  {
+    id: '110ddb87-3d61-443e-9403-ce5276e18260',
+    name: 'City',
+    location: {
+      latitude: -1.944712,
+      longitude: 30.059582,
+      coordinates: '-1.944712,30.059582'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.714Z
+  },
+  {
+    id: '85c484df-5cfc-4dad-8cff-0cdd9a29e69c',
+    name: 'Kayonza',
+    location: {
+      latitude: -1.901683,
+      longitude: 30.507554,
+      coordinates: '-1.901683,30.507554'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.714Z
+  },
+  {
+    id: 'e603eb3e-a62a-4e85-9389-5f2f2ab142d3',
+    name: 'Gatsata',
+    location: {
+      latitude: -1.927546,
+      longitude: 30.046594,
+      coordinates: '-1.927546,30.046594'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.715Z
+  },
+  {
+    id: 'f8c6c10c-6c55-4ab8-bfba-b55acc1fc832',
+    name: 'Rwamagana',
+    location: {
+      latitude: -1.948722,
+      longitude: 30.443082,
+      coordinates: '-1.948722,30.443082'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.716Z
+  },
+  {
+    id: '6c0d213e-b796-426a-9cfb-a3545eea37b5',
+    name: 'Nyamagabe',
+    location: {
+      latitude: -2.471812,
+      longitude: 29.580373,
+      coordinates: '-2.471812,29.580373'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.717Z
+  },
+  {
+    id: '533aaa4e-96e0-4ac6-9c67-7fed59cf47fd',
+    name: 'Nyirangarama',
+    location: {
+      latitude: -1.663481,
+      longitude: 29.887421,
+      coordinates: '-1.663481,29.887421'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.718Z
+  },
+  {
+    id: '6334955d-d774-4274-bc02-1cddfa7f4f98',
+    name: 'Muhanga',
+    location: {
+      latitude: -2.077268,
+      longitude: 29.771619,
+      coordinates: '-2.077268,29.771619'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.719Z
+  },
+  {
+    id: '094f5ef8-78f5-4b49-8d88-a10574964504',
+    name: 'Huye 2',
+    location: {
+      latitude: -2.589771,
+      longitude: 29.741815,
+      coordinates: '-2.589771,29.741815'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.720Z
+  },
+  {
+    id: '8a8dc7ab-13eb-429b-aba2-12cdaacf5d63',
+    name: 'Commerce',
+    location: {
+      latitude: -1.946793,
+      longitude: 30.058529,
+      coordinates: '-1.946793,30.058529'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.721Z
+  },
+  {
+    id: 'bc8484b4-bde7-4618-8161-04673fa8d6d3',
+    name: 'Rusizi 1',
+    location: {
+      latitude: -2.491732,
+      longitude: 28.893427,
+      coordinates: '-2.491732,28.893427'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.722Z
+  },
+  {
+    id: '9c0444a1-4175-401b-85b5-aec95b51e150',
+    name: 'Musanze 2',
+    location: {
+      latitude: -1.509548,
+      longitude: 29.647235,
+      coordinates: '-1.509548,29.647235'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.723Z
+  },
+  {
+    id: '6bc2fcd7-6f16-4f74-a3d1-1b75fb8be2c5',
+    name: 'Bugarama',
+    location: {
+      latitude: -2.696493,
+      longitude: 29.006891,
+      coordinates: '-2.696493,29.006891'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.723Z
+  },
+  {
+    id: 'b379c639-b74c-4fcf-9af9-7fd047989ab9',
+    name: 'Nyamata 2 /VILLE',
+    location: {
+      latitude: -2.139738,
+      longitude: 30.082002,
+      coordinates: '-2.139738,30.082002'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.724Z
+  },
+  {
+    id: 'a2d1b556-8b71-4cbe-9080-53751eaf99e1',
+    name: 'Ryabega',
+    location: {
+      latitude: -1.3627,
+      longitude: 30.369015,
+      coordinates: '-1.3627,30.369015'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.725Z
+  },
+  {
+    id: 'b80be48b-e55b-4092-bd80-f83f62ec32aa',
+    name: 'Gako',
+    location: {
+      latitude: -2.22563,
+      longitude: 30.158995,
+      coordinates: '-2.22563,30.158995'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.725Z
+  },
+  {
+    id: '47ee5c6c-e0c7-4e29-b91c-99004bd5e927',
+    name: 'Ngoma 2',
+    location: {
+      latitude: -2.137712,
+      longitude: 30.558096,
+      coordinates: '-2.137712,30.558096'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.726Z
+  },
+  {
+    id: '15b5d596-51a6-4bfb-88a1-7bf5fb8d50aa',
+    name: 'Nyamata 1/GAHEMBE',
+    location: {
+      latitude: -2.178582,
+      longitude: 30.102278,
+      coordinates: '-2.178582,30.102278'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.726Z
+  },
+  {
+    id: '2f3c116f-7543-48eb-a518-473cfabecbac',
+    name: 'Rubengera',
+    location: {
+      latitude: -2.05847,
+      longitude: 29.411253,
+      coordinates: '-2.05847,29.411253'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.727Z
+  },
+  {
+    id: 'af56bccc-bb23-4755-96fc-432b8f36ad05',
+    name: 'Kirehe',
+    location: {
+      latitude: -2.200835,
+      longitude: 30.562364,
+      coordinates: '-2.200835,30.562364'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.728Z
+  },
+  {
+    id: '76a451fa-5d12-443a-9b6f-ca501198579a',
+    name: 'Nyagatare',
+    location: {
+      latitude: -1.301166,
+      longitude: 30.32071,
+      coordinates: '-1.301166,30.32071'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.728Z
+  },
+  {
+    id: 'b936b3e8-2366-4c8d-b52d-eec55ed8c882',
+    name: 'Matimba',
+    location: {
+      latitude: -1.117287,
+      longitude: 30.427844,
+      coordinates: '-1.117287,30.427844'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.729Z
+  },
+  {
+    id: '852f2a5a-54e9-44cc-b31e-c451348cf81a',
+    name: 'Kanzenze',
+    location: {
+      latitude: -2.08012,
+      longitude: 30.096585,
+      coordinates: '-2.08012,30.096585'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.730Z
+  },
+  {
+    id: 'ea6a643e-c9ce-4265-b86d-aa4a1c1541f7',
+    name: 'Rusumo',
+    location: {
+      latitude: -2.382503,
+      longitude: 30.775952,
+      coordinates: '-2.382503,30.775952'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.731Z
+  },
+  {
+    id: 'f4a58230-08a8-49dd-a7be-55a55b16026c',
+    name: 'Kimisagara',
+    location: {
+      latitude: -1.955435,
+      longitude: 30.053486,
+      coordinates: '-1.955435,30.053486'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.732Z
+  },
+  {
+    id: '9940fda2-8340-4e09-a7f3-03991314fc59',
+    name: 'SP KIYOVU',
+    location: {
+      latitude: -1.952679,
+      longitude: 30.073808,
+      coordinates: '-1.952679,30.073808'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.733Z
+  },
+  {
+    id: '8aaa643e-2af1-46fc-9b4c-69aef546ad49',
+    name: 'SP NYARUGENGE',
+    location: {
+      latitude: -1.947026,
+      longitude: 30.054578,
+      coordinates: '-1.947026,30.054578'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.734Z
+  },
+  {
+    id: 'ccd61fc3-fc19-4b0d-b1e6-dee933b38beb',
+    name: 'SP  NYAMASHEKE',
+    location: {
+      latitude: -2.344984,
+      longitude: 29.087738,
+      coordinates: '-2.344984,29.087738'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.735Z
+  },
+  {
+    id: 'dc893348-41f5-42c4-b812-1da351a604d0',
+    name: 'SP GATENGA',
+    location: {
+      latitude: -1.976865,
+      longitude: 30.090384,
+      coordinates: '-1.976865,30.090384'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.737Z
+  },
+  {
+    id: 'ecde7546-5a69-4904-bcdc-f822a03a5923',
+    name: 'SP REMERA 2',
+    location: {
+      latitude: -1.959865,
+      longitude: 30.117298,
+      coordinates: '-1.959865,30.117298'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.738Z
+  },
+  {
+    id: 'ed2e3f93-da73-4bb3-b7fa-406ed1fdf8c0',
+    name: 'SP NYANZA',
+    location: {
+      latitude: -2.352828,
+      longitude: 29.752664,
+      coordinates: '-2.352828,29.752664'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.739Z
+  },
+  {
+    id: '4dfac52f-c37f-4c9b-80b5-3696f0d25693',
+    name: 'SP NGOMA 1',
+    location: {
+      latitude: -2.137423,
+      longitude: 30.557116,
+      coordinates: '-2.137423,30.557116'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.741Z
+  },
+  {
+    id: 'd573d3f2-f882-4a89-b82d-9ab56d5b7d54',
+    name: 'SP KABUGA',
+    location: {
+      latitude: -1.979411,
+      longitude: 30.221307,
+      coordinates: '-1.979411,30.221307'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.742Z
+  },
+  {
+    id: '43272c65-23fe-44bf-82c9-8ace64cc3432',
+    name: 'SP KITABI',
+    location: {
+      latitude: -2.519438,
+      longitude: 29.433078,
+      coordinates: '-2.519438,29.433078'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.743Z
+  },
+  {
+    id: '17a1917f-307a-4124-bdcf-0f67b9e86b92',
+    name: 'SP KIBEHO',
+    location: {
+      latitude: -2.648005,
+      longitude: 29.561001,
+      coordinates: '-2.648005,29.561001'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.745Z
+  },
+  {
+    id: 'f2b8c9c9-5ae2-4b68-b613-92e3755a54e9',
+    name: 'SP GICUMBI',
+    location: {
+      latitude: -1.585302,
+      longitude: 30.073813,
+      coordinates: '-1.585302,30.073813'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.746Z
+  },
+  {
+    id: '1a98a288-6398-48fa-80f4-82f05fbb49dd',
+    name: 'SP KINIGI',
+    location: {
+      latitude: -1.449853,
+      longitude: 29.591666,
+      coordinates: '-1.449853,29.591666'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.747Z
+  },
+  {
+    id: '7178ce5e-f44d-4f76-8a39-ffeaaa0d0273',
+    name: 'SP KIMIRONKO',
+    location: {
+      latitude: -1.928553,
+      longitude: 30.139612,
+      coordinates: '-1.928553,30.139612'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.748Z
+  },
+  {
+    id: '4ef33322-aaef-459a-b291-2ebacf49ce3c',
+    name: 'SP RUHUHA',
+    location: {
+      latitude: -2.298189,
+      longitude: 30.040193,
+      coordinates: '-2.298189,30.040193'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.750Z
+  },
+  {
+    id: 'c27ff082-2ff9-4551-84e9-62f0eadc5418',
+    name: 'SP KICUKIRO',
+    location: {
+      latitude: -1.985096,
+      longitude: 30.103057,
+      coordinates: '-1.985096,30.103057'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.751Z
+  },
+  {
+    id: 'c3cda59b-8e0f-4167-9a52-bee1f743bcb4',
+    name: 'SP NORVEGE',
+    location: {
+      latitude: -1.967587,
+      longitude: 30.028125,
+      coordinates: '-1.967587,30.028125'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.752Z
+  },
+  {
+    id: 'ca22bcbc-609b-4c3d-8969-edb5abeb60d2',
+    name: 'SP NYARUTARAMA 2',
+    location: {
+      latitude: -1.925681,
+      longitude: 30.102775,
+      coordinates: '-1.925681,30.102775'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.754Z
+  },
+  {
+    id: '2168dbd8-ffb8-4856-90aa-ee0d04075bbf',
+    name: 'SP REBERO',
+    location: {
+      latitude: -1.998909,
+      longitude: 30.08404,
+      coordinates: '-1.998909,30.08404'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.755Z
+  },
+  {
+    id: '63ef72c8-60ce-4c98-89eb-98f7495045eb',
+    name: 'Nyarutarama',
+    location: {
+      latitude: -1.951094,
+      longitude: 30.103468,
+      coordinates: '-1.951094,30.103468'
+    },
+    manager_id: 'bda0574f-e2df-46da-ba7a-bd5eab6dd587',
+    created_at: 2025-10-16T13:59:37.698Z
+  }
+]
+2025-10-17 21:02:12 +03:00: Stations returned: [
+  {
+    id: 'ffe08d25-7c68-4065-bc75-a0e5db37c643',
+    name: 'Nyabugogo 1',
+    location: {
+      latitude: -1.940685,
+      longitude: 30.046401,
+      coordinates: '-1.940685,30.046401'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.690Z
+  },
+  {
+    id: 'c09f9a2c-08d1-4c53-82bc-405c9bcc8491',
+    name: 'Centre Ville',
+    location: {
+      latitude: -1.950179,
+      longitude: 30.061072,
+      coordinates: '-1.950179,30.061072'
+    },
+    manager_id: '551bfe26-9d9d-42b9-bb18-a5a76bdb4657',
+    created_at: 2025-10-16T13:59:37.697Z
+  },
+  {
+    id: 'dd0bdc84-2afe-4686-a69c-03e202dc6188',
+    name: 'Musanze 1',
+    location: {
+      latitude: -1.508407,
+      longitude: 29.640613,
+      coordinates: '-1.508407,29.640613'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.699Z
+  },
+  {
+    id: '0d2a3343-9322-44ec-a339-99fc0eb4a7c7',
+    name: 'Kanombe 1',
+    location: {
+      latitude: -1.955949,
+      longitude: 30.144169,
+      coordinates: '-1.955949,30.144169'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.702Z
+  },
+  {
+    id: 'fe696124-349c-4041-943d-894659a2595f',
+    name: 'Remera 3 / GIPOROSO',
+    location: {
+      latitude: -1.960441,
+      longitude: 30.119796,
+      coordinates: '-1.960441,30.119796'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.703Z
+  },
+  {
+    id: 'dd80ab46-a87a-49ca-8ce9-9a09f2af5f80',
+    name: 'Nyabugogo 2',
+    location: {
+      latitude: -1.941917,
+      longitude: 30.043896,
+      coordinates: '-1.941917,30.043896'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.704Z
+  },
+  {
+    id: 'da1bfc0d-1fdd-4090-808a-d0499ad58db5',
+    name: 'Kabeza',
+    location: {
+      latitude: -1.970773,
+      longitude: 30.125069,
+      coordinates: '-1.970773,30.125069'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.705Z
+  },
+  {
+    id: '449f107c-a745-40ef-b95b-1e041d3ec106',
+    name: 'ISHEMA',
+    location: {
+      latitude: -1.946556,
+      longitude: 30.061066,
+      coordinates: '-1.946556,30.061066'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.706Z
+  },
+  {
+    id: 'd54cbfa1-223f-45c7-880e-3456f521f679',
+    name: 'Huye 1',
+    location: {
+      latitude: -2.603164,
+      longitude: 29.741204,
+      coordinates: '-2.603164,29.741204'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.708Z
+  },
+  {
+    id: '218221a8-3490-4ced-921e-7e22c4e839df',
+    name: 'Rusizi 2',
+    location: {
+      latitude: -2.474871,
+      longitude: 28.907005,
+      coordinates: '-2.474871,28.907005'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.709Z
+  },
+  {
+    id: 'b2b390b6-c546-4a3e-979b-f3ca535f9dcc',
+    name: 'Rubavu',
+    location: {
+      latitude: -1.703321,
+      longitude: 29.262043,
+      coordinates: '-1.703321,29.262043'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.711Z
+  },
+  {
+    id: '9b8c49e9-98cf-4902-8af4-f4e4c6a771f8',
+    name: 'Nyamirambo',
+    location: {
+      latitude: -1.977937,
+      longitude: 30.05118,
+      coordinates: '-1.977937,30.05118'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.713Z
+  },
+  {
+    id: '110ddb87-3d61-443e-9403-ce5276e18260',
+    name: 'City',
+    location: {
+      latitude: -1.944712,
+      longitude: 30.059582,
+      coordinates: '-1.944712,30.059582'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.714Z
+  },
+  {
+    id: '85c484df-5cfc-4dad-8cff-0cdd9a29e69c',
+    name: 'Kayonza',
+    location: {
+      latitude: -1.901683,
+      longitude: 30.507554,
+      coordinates: '-1.901683,30.507554'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.714Z
+  },
+  {
+    id: 'e603eb3e-a62a-4e85-9389-5f2f2ab142d3',
+    name: 'Gatsata',
+    location: {
+      latitude: -1.927546,
+      longitude: 30.046594,
+      coordinates: '-1.927546,30.046594'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.715Z
+  },
+  {
+    id: 'f8c6c10c-6c55-4ab8-bfba-b55acc1fc832',
+    name: 'Rwamagana',
+    location: {
+      latitude: -1.948722,
+      longitude: 30.443082,
+      coordinates: '-1.948722,30.443082'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.716Z
+  },
+  {
+    id: '6c0d213e-b796-426a-9cfb-a3545eea37b5',
+    name: 'Nyamagabe',
+    location: {
+      latitude: -2.471812,
+      longitude: 29.580373,
+      coordinates: '-2.471812,29.580373'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.717Z
+  },
+  {
+    id: '533aaa4e-96e0-4ac6-9c67-7fed59cf47fd',
+    name: 'Nyirangarama',
+    location: {
+      latitude: -1.663481,
+      longitude: 29.887421,
+      coordinates: '-1.663481,29.887421'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.718Z
+  },
+  {
+    id: '6334955d-d774-4274-bc02-1cddfa7f4f98',
+    name: 'Muhanga',
+    location: {
+      latitude: -2.077268,
+      longitude: 29.771619,
+      coordinates: '-2.077268,29.771619'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.719Z
+  },
+  {
+    id: '094f5ef8-78f5-4b49-8d88-a10574964504',
+    name: 'Huye 2',
+    location: {
+      latitude: -2.589771,
+      longitude: 29.741815,
+      coordinates: '-2.589771,29.741815'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.720Z
+  },
+  {
+    id: '8a8dc7ab-13eb-429b-aba2-12cdaacf5d63',
+    name: 'Commerce',
+    location: {
+      latitude: -1.946793,
+      longitude: 30.058529,
+      coordinates: '-1.946793,30.058529'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.721Z
+  },
+  {
+    id: 'bc8484b4-bde7-4618-8161-04673fa8d6d3',
+    name: 'Rusizi 1',
+    location: {
+      latitude: -2.491732,
+      longitude: 28.893427,
+      coordinates: '-2.491732,28.893427'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.722Z
+  },
+  {
+    id: '9c0444a1-4175-401b-85b5-aec95b51e150',
+    name: 'Musanze 2',
+    location: {
+      latitude: -1.509548,
+      longitude: 29.647235,
+      coordinates: '-1.509548,29.647235'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.723Z
+  },
+  {
+    id: '6bc2fcd7-6f16-4f74-a3d1-1b75fb8be2c5',
+    name: 'Bugarama',
+    location: {
+      latitude: -2.696493,
+      longitude: 29.006891,
+      coordinates: '-2.696493,29.006891'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.723Z
+  },
+  {
+    id: 'b379c639-b74c-4fcf-9af9-7fd047989ab9',
+    name: 'Nyamata 2 /VILLE',
+    location: {
+      latitude: -2.139738,
+      longitude: 30.082002,
+      coordinates: '-2.139738,30.082002'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.724Z
+  },
+  {
+    id: 'a2d1b556-8b71-4cbe-9080-53751eaf99e1',
+    name: 'Ryabega',
+    location: {
+      latitude: -1.3627,
+      longitude: 30.369015,
+      coordinates: '-1.3627,30.369015'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.725Z
+  },
+  {
+    id: 'b80be48b-e55b-4092-bd80-f83f62ec32aa',
+    name: 'Gako',
+    location: {
+      latitude: -2.22563,
+      longitude: 30.158995,
+      coordinates: '-2.22563,30.158995'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.725Z
+  },
+  {
+    id: '47ee5c6c-e0c7-4e29-b91c-99004bd5e927',
+    name: 'Ngoma 2',
+    location: {
+      latitude: -2.137712,
+      longitude: 30.558096,
+      coordinates: '-2.137712,30.558096'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.726Z
+  },
+  {
+    id: '15b5d596-51a6-4bfb-88a1-7bf5fb8d50aa',
+    name: 'Nyamata 1/GAHEMBE',
+    location: {
+      latitude: -2.178582,
+      longitude: 30.102278,
+      coordinates: '-2.178582,30.102278'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.726Z
+  },
+  {
+    id: '2f3c116f-7543-48eb-a518-473cfabecbac',
+    name: 'Rubengera',
+    location: {
+      latitude: -2.05847,
+      longitude: 29.411253,
+      coordinates: '-2.05847,29.411253'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.727Z
+  },
+  {
+    id: 'af56bccc-bb23-4755-96fc-432b8f36ad05',
+    name: 'Kirehe',
+    location: {
+      latitude: -2.200835,
+      longitude: 30.562364,
+      coordinates: '-2.200835,30.562364'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.728Z
+  },
+  {
+    id: '76a451fa-5d12-443a-9b6f-ca501198579a',
+    name: 'Nyagatare',
+    location: {
+      latitude: -1.301166,
+      longitude: 30.32071,
+      coordinates: '-1.301166,30.32071'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.728Z
+  },
+  {
+    id: 'b936b3e8-2366-4c8d-b52d-eec55ed8c882',
+    name: 'Matimba',
+    location: {
+      latitude: -1.117287,
+      longitude: 30.427844,
+      coordinates: '-1.117287,30.427844'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.729Z
+  },
+  {
+    id: '852f2a5a-54e9-44cc-b31e-c451348cf81a',
+    name: 'Kanzenze',
+    location: {
+      latitude: -2.08012,
+      longitude: 30.096585,
+      coordinates: '-2.08012,30.096585'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.730Z
+  },
+  {
+    id: 'ea6a643e-c9ce-4265-b86d-aa4a1c1541f7',
+    name: 'Rusumo',
+    location: {
+      latitude: -2.382503,
+      longitude: 30.775952,
+      coordinates: '-2.382503,30.775952'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.731Z
+  },
+  {
+    id: 'f4a58230-08a8-49dd-a7be-55a55b16026c',
+    name: 'Kimisagara',
+    location: {
+      latitude: -1.955435,
+      longitude: 30.053486,
+      coordinates: '-1.955435,30.053486'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.732Z
+  },
+  {
+    id: '9940fda2-8340-4e09-a7f3-03991314fc59',
+    name: 'SP KIYOVU',
+    location: {
+      latitude: -1.952679,
+      longitude: 30.073808,
+      coordinates: '-1.952679,30.073808'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.733Z
+  },
+  {
+    id: '8aaa643e-2af1-46fc-9b4c-69aef546ad49',
+    name: 'SP NYARUGENGE',
+    location: {
+      latitude: -1.947026,
+      longitude: 30.054578,
+      coordinates: '-1.947026,30.054578'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.734Z
+  },
+  {
+    id: 'ccd61fc3-fc19-4b0d-b1e6-dee933b38beb',
+    name: 'SP  NYAMASHEKE',
+    location: {
+      latitude: -2.344984,
+      longitude: 29.087738,
+      coordinates: '-2.344984,29.087738'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.735Z
+  },
+  {
+    id: 'dc893348-41f5-42c4-b812-1da351a604d0',
+    name: 'SP GATENGA',
+    location: {
+      latitude: -1.976865,
+      longitude: 30.090384,
+      coordinates: '-1.976865,30.090384'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.737Z
+  },
+  {
+    id: 'ecde7546-5a69-4904-bcdc-f822a03a5923',
+    name: 'SP REMERA 2',
+    location: {
+      latitude: -1.959865,
+      longitude: 30.117298,
+      coordinates: '-1.959865,30.117298'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.738Z
+  },
+  {
+    id: 'ed2e3f93-da73-4bb3-b7fa-406ed1fdf8c0',
+    name: 'SP NYANZA',
+    location: {
+      latitude: -2.352828,
+      longitude: 29.752664,
+      coordinates: '-2.352828,29.752664'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.739Z
+  },
+  {
+    id: '4dfac52f-c37f-4c9b-80b5-3696f0d25693',
+    name: 'SP NGOMA 1',
+    location: {
+      latitude: -2.137423,
+      longitude: 30.557116,
+      coordinates: '-2.137423,30.557116'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.741Z
+  },
+  {
+    id: 'd573d3f2-f882-4a89-b82d-9ab56d5b7d54',
+    name: 'SP KABUGA',
+    location: {
+      latitude: -1.979411,
+      longitude: 30.221307,
+      coordinates: '-1.979411,30.221307'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.742Z
+  },
+  {
+    id: '43272c65-23fe-44bf-82c9-8ace64cc3432',
+    name: 'SP KITABI',
+    location: {
+      latitude: -2.519438,
+      longitude: 29.433078,
+      coordinates: '-2.519438,29.433078'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.743Z
+  },
+  {
+    id: '17a1917f-307a-4124-bdcf-0f67b9e86b92',
+    name: 'SP KIBEHO',
+    location: {
+      latitude: -2.648005,
+      longitude: 29.561001,
+      coordinates: '-2.648005,29.561001'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.745Z
+  },
+  {
+    id: 'f2b8c9c9-5ae2-4b68-b613-92e3755a54e9',
+    name: 'SP GICUMBI',
+    location: {
+      latitude: -1.585302,
+      longitude: 30.073813,
+      coordinates: '-1.585302,30.073813'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.746Z
+  },
+  {
+    id: '1a98a288-6398-48fa-80f4-82f05fbb49dd',
+    name: 'SP KINIGI',
+    location: {
+      latitude: -1.449853,
+      longitude: 29.591666,
+      coordinates: '-1.449853,29.591666'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.747Z
+  },
+  {
+    id: '7178ce5e-f44d-4f76-8a39-ffeaaa0d0273',
+    name: 'SP KIMIRONKO',
+    location: {
+      latitude: -1.928553,
+      longitude: 30.139612,
+      coordinates: '-1.928553,30.139612'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.748Z
+  },
+  {
+    id: '4ef33322-aaef-459a-b291-2ebacf49ce3c',
+    name: 'SP RUHUHA',
+    location: {
+      latitude: -2.298189,
+      longitude: 30.040193,
+      coordinates: '-2.298189,30.040193'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.750Z
+  },
+  {
+    id: 'c27ff082-2ff9-4551-84e9-62f0eadc5418',
+    name: 'SP KICUKIRO',
+    location: {
+      latitude: -1.985096,
+      longitude: 30.103057,
+      coordinates: '-1.985096,30.103057'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.751Z
+  },
+  {
+    id: 'c3cda59b-8e0f-4167-9a52-bee1f743bcb4',
+    name: 'SP NORVEGE',
+    location: {
+      latitude: -1.967587,
+      longitude: 30.028125,
+      coordinates: '-1.967587,30.028125'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.752Z
+  },
+  {
+    id: 'ca22bcbc-609b-4c3d-8969-edb5abeb60d2',
+    name: 'SP NYARUTARAMA 2',
+    location: {
+      latitude: -1.925681,
+      longitude: 30.102775,
+      coordinates: '-1.925681,30.102775'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.754Z
+  },
+  {
+    id: '2168dbd8-ffb8-4856-90aa-ee0d04075bbf',
+    name: 'SP REBERO',
+    location: {
+      latitude: -1.998909,
+      longitude: 30.08404,
+      coordinates: '-1.998909,30.08404'
+    },
+    manager_id: null,
+    created_at: 2025-10-16T13:59:37.755Z
+  },
+  {
+    id: '63ef72c8-60ce-4c98-89eb-98f7495045eb',
+    name: 'Nyarutarama',
+    location: {
+      latitude: -1.951094,
+      longitude: 30.103468,
+      coordinates: '-1.951094,30.103468'
+    },
+    manager_id: 'bda0574f-e2df-46da-ba7a-bd5eab6dd587',
+    created_at: 2025-10-16T13:59:37.698Z
+  }
+]
+2025-10-17 21:06:16 +03:00: Stations returned: [
+  {
+    id: 'ffe08d25-7c68-4065-bc75-a0e5db37c643',
+    name: 'Nyabugogo 1',
+    location: {
+      latitude: -1.940685,
+      longitude: 30.046401,
+      coordinates: '-1.940685,30.046401'
+    },
+    manager_id: 'cb64b98e-e0c7-48ae-bce0-f45b4e7ade24',
+    created_at: 2025-10-16T13:59:37.690Z
+  }
+]
+2025-10-17 21:17:02 +03:00: Server running on http://0.0.0.0:3000
+2025-10-17 21:17:02 +03:00: Database tables already exist, ensured all required columns are present
+2025-10-17 22:36:43 +03:00: Stations returned: [
+  {
+    id: 'ffe08d25-7c68-4065-bc75-a0e5db37c643',
+    name: 'Nyabugogo 1',
+    location: {
+      latitude: -1.940685,
+      longitude: 30.046401,
+      coordinates: '-1.940685,30.046401'
+    },
+    manager_id: 'cb64b98e-e0c7-48ae-bce0-f45b4e7ade24',
+    created_at: 2025-10-16T13:59:37.690Z
+  }
+]

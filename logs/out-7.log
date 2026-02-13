@@ -1,0 +1,252 @@
+2025-10-16 11:55:42 +03:00: Server running on http://0.0.0.0:6000
+2025-10-16 11:55:42 +03:00: Database tables already exist, ensured all required columns are present
+2025-10-16 11:56:43 +03:00: Server running on http://0.0.0.0:6000
+2025-10-16 11:56:43 +03:00: Database tables already exist, ensured all required columns are present
+2025-10-16 11:59:56 +03:00: Server running on http://0.0.0.0:6000
+2025-10-16 11:59:56 +03:00: Database tables already exist, ensured all required columns are present
+2025-10-16 12:03:32 +03:00: Server running on http://0.0.0.0:3000
+2025-10-16 12:03:32 +03:00: Database tables already exist, ensured all required columns are present
+2025-10-16 12:08:21 +03:00: Server running on http://0.0.0.0:3000
+2025-10-16 12:08:21 +03:00: Database tables already exist, ensured all required columns are present
+2025-10-16 12:09:34 +03:00: Stations returned: [
+  {
+    id: 'e605ef56-1370-463c-ae36-eb7511041a69',
+    name: 'bishenyi',
+    location: { latitude: 20, longitude: 20 },
+    manager_id: 'a26a83d8-ebf9-41fc-bfd8-4f54596d3ee5',
+    created_at: 2025-10-16T08:24:20.870Z
+  }
+]
+2025-10-16 12:09:36 +03:00: Stations returned: [
+  {
+    id: 'e605ef56-1370-463c-ae36-eb7511041a69',
+    name: 'bishenyi',
+    location: { latitude: 20, longitude: 20 },
+    manager_id: 'a26a83d8-ebf9-41fc-bfd8-4f54596d3ee5',
+    created_at: 2025-10-16T08:24:20.870Z
+  }
+]
+2025-10-16 12:16:09 +03:00: Stations returned: [
+  {
+    id: 'e605ef56-1370-463c-ae36-eb7511041a69',
+    name: 'bishenyi',
+    location: { latitude: 20, longitude: 20 },
+    manager_id: 'a26a83d8-ebf9-41fc-bfd8-4f54596d3ee5',
+    created_at: 2025-10-16T08:24:20.870Z
+  }
+]
+2025-10-16 13:32:23 +03:00: Stations returned: [
+  {
+    id: 'e605ef56-1370-463c-ae36-eb7511041a69',
+    name: 'bishenyi',
+    location: { latitude: 20, longitude: 20 },
+    manager_id: 'a26a83d8-ebf9-41fc-bfd8-4f54596d3ee5',
+    created_at: 2025-10-16T08:24:20.870Z
+  }
+]
+2025-10-16 13:32:30 +03:00: Stations returned: [
+  {
+    id: 'e605ef56-1370-463c-ae36-eb7511041a69',
+    name: 'bishenyi',
+    location: { latitude: 20, longitude: 20 },
+    manager_id: 'a26a83d8-ebf9-41fc-bfd8-4f54596d3ee5',
+    created_at: 2025-10-16T08:24:20.870Z
+  }
+]
+2025-10-16 13:38:11 +03:00: Stations returned: [
+  {
+    id: 'e605ef56-1370-463c-ae36-eb7511041a69',
+    name: 'bishenyi',
+    location: { latitude: 20, longitude: 20 },
+    manager_id: 'a26a83d8-ebf9-41fc-bfd8-4f54596d3ee5',
+    created_at: 2025-10-16T08:24:20.870Z
+  }
+]
+2025-10-16 13:38:18 +03:00: Stations returned: [
+  {
+    id: 'e605ef56-1370-463c-ae36-eb7511041a69',
+    name: 'bishenyi',
+    location: { latitude: 20, longitude: 20 },
+    manager_id: 'a26a83d8-ebf9-41fc-bfd8-4f54596d3ee5',
+    created_at: 2025-10-16T08:24:20.870Z
+  }
+]
+2025-10-16 13:40:22 +03:00: Stations returned: [
+  {
+    id: 'e605ef56-1370-463c-ae36-eb7511041a69',
+    name: 'bishenyi',
+    location: { latitude: 20, longitude: 20 },
+    manager_id: 'a26a83d8-ebf9-41fc-bfd8-4f54596d3ee5',
+    created_at: 2025-10-16T08:24:20.870Z
+  }
+]
+2025-10-16 13:44:57 +03:00: the received user_id is: 136d3874-d409-40fc-a96c-03068822285b
+2025-10-16 13:56:53 +03:00: Stations returned: [
+  {
+    id: 'e605ef56-1370-463c-ae36-eb7511041a69',
+    name: 'bishenyi',
+    location: { latitude: 20, longitude: 20 },
+    manager_id: 'a26a83d8-ebf9-41fc-bfd8-4f54596d3ee5',
+    created_at: 2025-10-16T08:24:20.870Z
+  }
+]
+2025-10-16 13:56:53 +03:00: Stations returned: [
+  {
+    id: 'e605ef56-1370-463c-ae36-eb7511041a69',
+    name: 'bishenyi',
+    location: { latitude: 20, longitude: 20 },
+    manager_id: 'a26a83d8-ebf9-41fc-bfd8-4f54596d3ee5',
+    created_at: 2025-10-16T08:24:20.870Z
+  }
+]
+2025-10-16 13:57:47 +03:00: Stations returned: [
+  {
+    id: 'e605ef56-1370-463c-ae36-eb7511041a69',
+    name: 'bishenyi',
+    location: { latitude: 20, longitude: 20 },
+    manager_id: 'a26a83d8-ebf9-41fc-bfd8-4f54596d3ee5',
+    created_at: 2025-10-16T08:24:20.870Z
+  }
+]
+2025-10-16 13:57:48 +03:00: Stations returned: [
+  {
+    id: 'e605ef56-1370-463c-ae36-eb7511041a69',
+    name: 'bishenyi',
+    location: { latitude: 20, longitude: 20 },
+    manager_id: 'a26a83d8-ebf9-41fc-bfd8-4f54596d3ee5',
+    created_at: 2025-10-16T08:24:20.870Z
+  }
+]
+2025-10-16 15:55:13 +03:00: the received user_id is: 31a9c500-0496-4273-a736-3843adbdd841
+2025-10-16 15:56:58 +03:00: Stations returned: [
+  {
+    id: 'e605ef56-1370-463c-ae36-eb7511041a69',
+    name: 'bishenyi',
+    location: { latitude: 20, longitude: 20 },
+    manager_id: 'a26a83d8-ebf9-41fc-bfd8-4f54596d3ee5',
+    created_at: 2025-10-16T08:24:20.870Z
+  }
+]
+2025-10-16 16:06:20 +03:00: Stations returned: [
+  {
+    id: 'e605ef56-1370-463c-ae36-eb7511041a69',
+    name: 'bishenyi',
+    location: { latitude: 20, longitude: 20 },
+    manager_id: 'a26a83d8-ebf9-41fc-bfd8-4f54596d3ee5',
+    created_at: 2025-10-16T08:24:20.870Z
+  }
+]
+2025-10-16 16:09:21 +03:00: Server running on http://0.0.0.0:3000
+2025-10-16 16:09:21 +03:00: Database tables already exist, ensured all required columns are present
+2025-10-16 16:15:03 +03:00: the received user_id is: 31a9c500-0496-4273-a736-3843adbdd841
+2025-10-16 16:15:03 +03:00: Update data received: { name: 'joseph', email: 'john@gmail.com', role: 'unicorn' }
+2025-10-16 16:15:03 +03:00: Update query result: [
+  {
+    id: '31a9c500-0496-4273-a736-3843adbdd841',
+    name: 'joseph',
+    email: 'john@gmail.com',
+    role: 'unicorn'
+  }
+]
+2025-10-16 16:15:08 +03:00: Stations returned: [
+  {
+    id: 'e605ef56-1370-463c-ae36-eb7511041a69',
+    name: 'bishenyi',
+    location: { latitude: 20, longitude: 20 },
+    manager_id: 'a26a83d8-ebf9-41fc-bfd8-4f54596d3ee5',
+    created_at: 2025-10-16T08:24:20.870Z
+  }
+]
+2025-10-16 16:18:26 +03:00: Stations returned: [
+  {
+    id: 'e605ef56-1370-463c-ae36-eb7511041a69',
+    name: 'bishenyi',
+    location: { latitude: 20, longitude: 20 },
+    manager_id: 'a26a83d8-ebf9-41fc-bfd8-4f54596d3ee5',
+    created_at: 2025-10-16T08:24:20.870Z
+  }
+]
+2025-10-16 16:18:28 +03:00: Stations returned: [
+  {
+    id: 'e605ef56-1370-463c-ae36-eb7511041a69',
+    name: 'bishenyi',
+    location: { latitude: 20, longitude: 20 },
+    manager_id: 'a26a83d8-ebf9-41fc-bfd8-4f54596d3ee5',
+    created_at: 2025-10-16T08:24:20.870Z
+  }
+]
+2025-10-16 16:24:21 +03:00: Stations returned: [
+  {
+    id: 'e605ef56-1370-463c-ae36-eb7511041a69',
+    name: 'bishenyi',
+    location: { latitude: 20, longitude: 20 },
+    manager_id: 'a26a83d8-ebf9-41fc-bfd8-4f54596d3ee5',
+    created_at: 2025-10-16T08:24:20.870Z
+  }
+]
+2025-10-16 16:28:36 +03:00: Stations returned: [
+  {
+    id: 'e605ef56-1370-463c-ae36-eb7511041a69',
+    name: 'bishenyi',
+    location: { latitude: 20, longitude: 20 },
+    manager_id: 'a26a83d8-ebf9-41fc-bfd8-4f54596d3ee5',
+    created_at: 2025-10-16T08:24:20.870Z
+  }
+]
+2025-10-16 16:28:45 +03:00: Stations returned: [
+  {
+    id: 'e605ef56-1370-463c-ae36-eb7511041a69',
+    name: 'bishenyi',
+    location: { latitude: 20, longitude: 20 },
+    manager_id: 'a26a83d8-ebf9-41fc-bfd8-4f54596d3ee5',
+    created_at: 2025-10-16T08:24:20.870Z
+  }
+]
+2025-10-16 16:33:18 +03:00: Server running on http://0.0.0.0:3000
+2025-10-16 16:33:18 +03:00: Database tables already exist, ensured all required columns are present
+2025-10-16 16:37:55 +03:00: Server running on http://0.0.0.0:3000
+2025-10-16 16:37:55 +03:00: Database tables already exist, ensured all required columns are present
+2025-10-16 16:42:22 +03:00: Server running on http://0.0.0.0:3000
+2025-10-16 16:42:22 +03:00: Database tables already exist, ensured all required columns are present
+2025-10-16 16:46:19 +03:00: Server running on http://0.0.0.0:3000
+2025-10-16 16:46:19 +03:00: Database tables already exist, ensured all required columns are present
+2025-10-16 16:48:56 +03:00: Server running on http://0.0.0.0:3000
+2025-10-16 16:48:56 +03:00: Database tables already exist, ensured all required columns are present
+2025-10-16 16:50:45 +03:00: Server running on http://0.0.0.0:3000
+2025-10-16 16:50:45 +03:00: Database tables already exist, ensured all required columns are present
+2025-10-16 16:54:17 +03:00: Server running on http://0.0.0.0:3000
+2025-10-16 16:54:17 +03:00: Database tables already exist, ensured all required columns are present
+2025-10-16 16:58:55 +03:00: Server running on http://0.0.0.0:3000
+2025-10-16 16:58:55 +03:00: Database tables already exist, ensured all required columns are present
+2025-10-16 17:49:40 +03:00: Server running on http://0.0.0.0:3000
+2025-10-16 17:49:40 +03:00: Database tables already exist, ensured all required columns are present
+2025-10-17 21:02:24 +03:00: Server running on http://0.0.0.0:3000
+2025-10-17 21:02:24 +03:00: Database tables already exist, ensured all required columns are present
+2025-10-17 21:17:22 +03:00: Server running on http://0.0.0.0:3000
+2025-10-17 21:17:23 +03:00: Database tables already exist, ensured all required columns are present
+2025-10-17 21:38:04 +03:00: Stations returned: [
+  {
+    id: 'ffe08d25-7c68-4065-bc75-a0e5db37c643',
+    name: 'Nyabugogo 1',
+    location: {
+      latitude: -1.940685,
+      longitude: 30.046401,
+      coordinates: '-1.940685,30.046401'
+    },
+    manager_id: 'cb64b98e-e0c7-48ae-bce0-f45b4e7ade24',
+    created_at: 2025-10-16T13:59:37.690Z
+  }
+]
+2025-10-17 22:40:37 +03:00: Stations returned: [
+  {
+    id: 'ffe08d25-7c68-4065-bc75-a0e5db37c643',
+    name: 'Nyabugogo 1',
+    location: {
+      latitude: -1.940685,
+      longitude: 30.046401,
+      coordinates: '-1.940685,30.046401'
+    },
+    manager_id: 'cb64b98e-e0c7-48ae-bce0-f45b4e7ade24',
+    created_at: 2025-10-16T13:59:37.690Z
+  }
+]

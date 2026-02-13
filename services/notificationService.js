@@ -1,44 +1,12 @@
-import nodemailer from 'nodemailer';
 import { MLService } from './mlService.js';
 import dotenv from 'dotenv';
 
 dotenv.config();
 
-// Email configuration
-const emailTransporter = nodemailer.createTransport({
-  host: 'smtp.gmail.com',
-  port: 587,
-  secure: false,
-  auth: {
-    user: process.env.EMAIL_USER,
-    pass: process.env.EMAIL_APP_PASSWORD
-  }
-});
 
-// Test the connection
-emailTransporter.verify(function(error, success) {
-  if (error) {
-    console.log('SMTP connection error:', error);
-  } else {
-    console.log('SMTP server is ready to take our messages');
-  }
-});
 
 class NotificationService {
-  static async sendEmail(to = 'herimornchriston@gmail.com', subject, html) {
-    try {
-      await emailTransporter.sendMail({
-        from: 'herimornix@gmail.com',
-        to,
-        subject,
-        html
-      });
-      return true;
-    } catch (error) {
-      console.error('Email sending failed:', error);
-      return false;
-    }
-  }
+// ...existing code...
 
   static async notifyComplaint(complaint, users) {
     const urgencyScore = await this.calculateComplaintUrgency(complaint);

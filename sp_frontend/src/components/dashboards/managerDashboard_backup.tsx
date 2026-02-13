@@ -201,7 +201,7 @@ const ManagerDashboard: React.FC = () => {
     return (
       <div className="text-center py-8">
         <h2 className="text-xl font-semibold text-gray-800">No Station Assigned</h2>
-        <p className="text-gray-600 mt-2">Please contact an administrator to assign you to a station.</p>
+        <p className="text-gray-600 mt-2">Please contact technical support to assign you to a station.</p>
       </div>
     );
   }

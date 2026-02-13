@@ -205,99 +205,108 @@ const ComplaintsManager: React.FC = () => {
   if (!station) return <div>No station assigned</div>;
 
   return (
-    <div className="space-y-6">
+    <div className="w-full space-y-4 sm:space-y-6 px-4 sm:px-0">
       {error && (
-        <div className="bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded relative">
+        <div className="bg-red-50 border border-red-200 text-red-700 px-3 sm:px-4 py-2 sm:py-3 rounded-form relative text-sm sm:text-base">
           {error}
-          <button 
+          <button
             onClick={() => setError(null)}
-            className="absolute top-0 bottom-0 right-0 px-4 py-3"
+            className="absolute top-0 bottom-0 right-0 px-3 sm:px-4 py-2 sm:py-3 text-red-500 hover:text-red-700"
           >
             ×
           </button>
         </div>
       )}
 
-      <div className="flex justify-between items-center">
-        <div className="flex items-center space-x-2">
-          <AlertCircle className="h-6 w-6 text-gray-600" />
-          <h2 className="text-2xl font-bold text-gray-800">Complaints Management</h2>
+      <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center gap-4 mb-6 sm:mb-8">
+        <div className="flex items-center space-x-3">
+          <div className="bg-primary-100 p-2 rounded-form">
+            <AlertCircle className="h-5 w-5 sm:h-6 sm:w-6 text-primary-600" />
+          </div>
+          <h2 className="text-xl sm:text-2xl font-bold text-secondary-800">Complaints Management</h2>
         </div>
-        <div className="relative w-1/3">
-          <Search className="absolute left-3 top-2.5 h-5 w-5 text-gray-400" />
+        <div className="relative w-full lg:w-1/3">
+          <Search className="absolute left-3 top-3 h-4 w-4 sm:h-5 sm:w-5 text-secondary-400" />
           <input
             type="text"
             placeholder="Search complaints..."
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            className="pl-10 pr-4 py-2 w-full border border-gray-300 rounded-md focus:ring focus:ring-red-200 focus:border-red-500"
+            className="pl-10 pr-4 py-2 sm:py-3 w-full text-sm sm:text-base border border-secondary-300 rounded-form focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-colors duration-200"
           />
         </div>
       </div>
 
-      <div className="bg-white rounded-lg shadow-md overflow-hidden">
-        <table className="min-w-full">
-          <thead className="bg-gray-50">
-            <tr>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Title</th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Type</th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Description</th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Status</th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Assigned To</th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Work Permit</th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Date</th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Priority</th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Actions</th>
-            </tr>
-          </thead>
-          <tbody className="bg-white divide-y divide-gray-200">
+      <div className="bg-white rounded-form shadow-form border border-secondary-200 overflow-hidden">
+        <div className="overflow-x-auto">
+          <table className="min-w-full divide-y divide-secondary-200">
+            <thead className="bg-secondary-50">
+              <tr>
+                <th className="px-3 sm:px-6 py-2 sm:py-3 text-left text-xs font-medium text-secondary-500 uppercase tracking-wider">Title</th>
+                <th className="px-3 sm:px-6 py-2 sm:py-3 text-left text-xs font-medium text-secondary-500 uppercase tracking-wider">Type</th>
+                <th className="px-3 sm:px-6 py-2 sm:py-3 text-left text-xs font-medium text-secondary-500 uppercase tracking-wider">Description</th>
+                <th className="px-3 sm:px-6 py-2 sm:py-3 text-left text-xs font-medium text-secondary-500 uppercase tracking-wider">Status</th>
+                <th className="px-3 sm:px-6 py-2 sm:py-3 text-left text-xs font-medium text-secondary-500 uppercase tracking-wider">Assigned To</th>
+                <th className="px-3 sm:px-6 py-2 sm:py-3 text-left text-xs font-medium text-secondary-500 uppercase tracking-wider">Work Permit</th>
+                <th className="px-3 sm:px-6 py-2 sm:py-3 text-left text-xs font-medium text-secondary-500 uppercase tracking-wider">Date</th>
+                <th className="px-3 sm:px-6 py-2 sm:py-3 text-left text-xs font-medium text-secondary-500 uppercase tracking-wider">Priority</th>
+                <th className="px-3 sm:px-6 py-2 sm:py-3 text-left text-xs font-medium text-secondary-500 uppercase tracking-wider">Actions</th>
+              </tr>
+            </thead>
+            <tbody className="bg-white divide-y divide-secondary-200">
             {paginatedComplaints.map((complaint) => {
               const workPermit = getComplaintWorkPermit(complaint.id);
               return (
-              <tr key={complaint.id}>
-                <td className="px-6 py-4">{complaint.title}</td>
-                 <td className="px-6 py-4">
-                     <div className="flex items-center space-x-2 mt-1">
-                      <span className={`px-2 py-1 text-xs rounded-full flex items-center space-x-1 ${
-                        complaint.complaint_type === 'fuel'
-                          ? 'bg-blue-100 text-blue-800'
-                          : 'bg-orange-100 text-orange-800'
-                      }`}>
-                        {complaint.complaint_type === 'lpg' && <Flame className="h-3 w-3" />}
-                        <span>
-                          {complaint.complaint_type === 'fuel'
-                            ? 'Forecourt'
-                            : complaint.complaint_type === 'lpg'
-                              ? 'LPG'
-                              : 'Other'}
-                        </span>
+              <tr key={complaint.id} className="hover:bg-secondary-50">
+                <td className="px-3 sm:px-6 py-2 sm:py-4">
+                  <div className="text-xs sm:text-sm text-secondary-900 break-words max-w-[100px] sm:max-w-none">{complaint.title}</div>
+                </td>
+                <td className="px-3 sm:px-6 py-2 sm:py-4">
+                  <div className="flex items-center space-x-2">
+                    <span className={`px-2 py-1 text-xs rounded-full flex items-center space-x-1 ${
+                      complaint.complaint_type === 'fuel'
+                        ? 'bg-blue-100 text-blue-800'
+                        : 'bg-orange-100 text-orange-800'
+                    }`}>
+                      {complaint.complaint_type === 'lpg' && <Flame className="h-3 w-3" />}
+                      <span className="text-xs">
+                        {complaint.complaint_type === 'fuel'
+                          ? 'Forecourt'
+                          : complaint.complaint_type === 'lpg'
+                            ? 'LPG'
+                            : 'Other'}
                       </span>
-                    </div>
-                  
-                 </td>
-                <td className="px-6 py-4">{complaint.description}</td>
-                <td className="px-6 py-4">
+                    </span>
+                  </div>
+                </td>
+                <td className="px-3 sm:px-6 py-2 sm:py-4">
+                  <div className="text-xs sm:text-sm text-secondary-900 break-words max-w-[120px] sm:max-w-none">{complaint.description}</div>
+                </td>
+                <td className="px-3 sm:px-6 py-2 sm:py-4">
                   <div className="flex items-center">
                     {getStatusIcon(complaint.status)}
-                    <span className="ml-2 capitalize">
+                    <span className="ml-2 text-xs sm:text-sm capitalize hidden sm:inline">
                       {complaint.status === 'unicorn_assigned' ? 'Assigned to Unicorn' :
                        complaint.status === 'unicorn_received' ? 'Unicorn Working' :
                        complaint.status === 'trident_assigned' ? 'Assigned to Trident' :
                        complaint.status === 'trident_received' ? 'Trident Working' :
                        complaint.status.replace('_', ' ')}
                     </span>
+                    <span className="ml-2 text-xs sm:hidden capitalize">
+                      {complaint.status.replace('_', ' ')}
+                    </span>
                   </div>
                 </td>
-                <td className="px-6 py-4">
+                <td className="px-3 sm:px-6 py-2 sm:py-4">
                   <div className="flex items-center space-x-1">
-                    {complaint.complaint_type === 'lpg' && 
+                    {complaint.complaint_type === 'lpg' &&
                      (complaint.status === 'trident_assigned' || complaint.status === 'trident_received') && (
-                      <Flame className="h-4 w-4 text-orange-500" />
+                      <Flame className="h-3 w-3 sm:h-4 sm:w-4 text-orange-500" />
                     )}
-                    <span>{getAssignedTechnicianName(complaint)}</span>
+                    <span className="text-xs sm:text-sm truncate max-w-[80px] sm:max-w-none">{getAssignedTechnicianName(complaint)}</span>
                   </div>
                 </td>
-                <td className="px-6 py-4">
+                <td className="px-3 sm:px-6 py-2 sm:py-4">
                   {workPermit ? (
                     <div className="flex items-center space-x-2">
                       <span className={`px-2 py-1 text-xs rounded-full ${getPermitStatusColor(workPermit.status)}`}>
@@ -308,114 +317,103 @@ const ComplaintsManager: React.FC = () => {
                           setSelectedPermitForView(workPermit);
                           setShowPermitDetails(true);
                         }}
-                        className="text-blue-600 hover:text-blue-800"
+                        className="text-blue-600 hover:text-blue-800 touch-manipulation"
                       >
-                        <Eye className="h-4 w-4" />
+                        <Eye className="h-3 w-3 sm:h-4 sm:w-4" />
                       </button>
                     </div>
                   ) : (
                     <div className="flex items-center space-x-2">
-                      <span className="text-gray-400 text-xs">No permit</span>
-                      {complaint.requires_work_permit && 
+                      <span className="text-secondary-400 text-xs hidden sm:inline">No permit</span>
+                      {complaint.requires_work_permit &&
                        (complaint.status === 'unicorn_assigned' || complaint.status === 'trident_assigned') && (
                         <button
                           onClick={() => {
                             setSelectedComplaintForPermit(complaint);
                             setShowWorkPermitModal(true);
                           }}
-                          className="text-orange-600 hover:text-orange-800"
+                          className="text-orange-600 hover:text-orange-800 touch-manipulation"
                         >
-                          <Plus className="h-4 w-4" />
+                          <Plus className="h-3 w-3 sm:h-4 sm:w-4" />
                         </button>
                       )}
                     </div>
                   )}
                 </td>
-                <td className="px-6 py-4">
-                  {(() => {
-                    const date = new Date(complaint.created_at);
-                    const day = date.toLocaleString('en-GB', { day: '2-digit' });
-                    const month = date.toLocaleString('en-GB', { month: 'long' });
-                    const year = date.getFullYear();
-                    return `${day}-${month}-${year}`;
-                  })()}
+                <td className="px-3 sm:px-6 py-2 sm:py-4">
+                  <div className="text-xs sm:text-sm text-secondary-500">
+                    {(() => {
+                      const date = new Date(complaint.created_at);
+                      const day = date.getDate();
+                      const month = date.toLocaleString('en-GB', { month: 'short' });
+                      const year = date.getFullYear();
+                      return `${day}-${month}-${year}`;
+                    })()}
+                  </div>
                 </td>
-                <td className="px-6 py-4 capitalize">{complaint.priority || 'Normal'}</td>
-                <td className="px-6 py-4">
-                  <div className="flex flex-row items-center space-x-2">
+                <td className="px-3 sm:px-6 py-2 sm:py-4">
+                  <div className="text-xs sm:text-sm text-secondary-900 capitalize">{complaint.priority || 'Normal'}</div>
+                </td>
+                <td className="px-3 sm:px-6 py-2 sm:py-4">
+                  <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2">
                     {canResolveComplaint(complaint) && (
                       <button
                         onClick={() => {
                           setSelectedComplaint(complaint);
                           setShowConfirmModal(true);
                         }}
-                        className="text-sm text-white bg-green-600 px-3 py-1 rounded-md hover:bg-green-700"
+                        className="text-xs sm:text-sm text-white bg-green-600 px-2 sm:px-3 py-1 rounded-form hover:bg-green-700 touch-manipulation whitespace-nowrap"
                       >
                         Mark as Solved
                       </button>
                     )}
-                    {complaint.requires_work_permit && !workPermit && 
+                    {complaint.requires_work_permit && !workPermit &&
                       (complaint.status === 'unicorn_assigned' || complaint.status === 'trident_assigned') && (
                         <button
                           onClick={() => {
                             setSelectedComplaintForPermit(complaint);
                             setShowWorkPermitModal(true);
                           }}
-                          className="text-sm text-white bg-orange-600 px-3 py-1 rounded-md hover:bg-orange-700 flex items-center"
+                          className="text-xs sm:text-sm text-white bg-orange-600 px-2 sm:px-3 py-1 rounded-form hover:bg-orange-700 flex items-center touch-manipulation whitespace-nowrap"
                         >
                           <FileText className="h-3 w-3 mr-1" />
-                          Create Permit
+                          <span className="hidden sm:inline">Create Permit</span>
+                          <span className="sm:hidden">Permit</span>
                         </button>
-                    )}
-                    {/* Station Manager can create work permit for any complaint that needs it */}
-                    {(complaint.status === 'in_progress' || 
-                      complaint.status === 'unicorn_assigned' || 
-                      complaint.status === 'unicorn_received' ||
-                      complaint.status === 'trident_assigned' || 
-                      complaint.status === 'trident_received') && !workPermit && (
-                      <button
-                        onClick={() => {
-                          setSelectedComplaintForPermit(complaint);
-                          setShowWorkPermitModal(true);
-                        }}
-                        className="text-sm text-white bg-orange-600 px-3 py-1 rounded-md hover:bg-orange-700 flex items-center"
-                      >
-                        <FileText className="h-3 w-3 mr-1" />
-                        Create Permit
-                      </button>
-                    )}
+                      )}
                   </div>
                 </td>
               </tr>
               );
             })}
           </tbody>
-        </table>
+          </table>
+        </div>
       </div>
 
-      <div className="flex justify-between items-center mt-4">
-        <div>
+      <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4 mt-6 sm:mt-8">
+        <div className="flex space-x-3 order-2 sm:order-1">
           <button
             onClick={() => handlePageChange(currentPage - 1)}
             disabled={currentPage === 1}
-            className="px-4 py-2 bg-gray-200 text-gray-700 rounded-md hover:bg-gray-300 disabled:opacity-50"
+            className="px-4 sm:px-6 py-2 sm:py-3 bg-primary-600 text-white rounded-form hover:bg-primary-700 disabled:opacity-50 transform hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 shadow-form font-medium text-sm sm:text-base touch-manipulation"
           >
-            <ChevronLeft className="inline mr-1" /> Previous
+            <ChevronLeft className="inline mr-2 h-3 w-3 sm:h-4 sm:w-4" /> Previous
           </button>
           <button
             onClick={() => handlePageChange(currentPage + 1)}
             disabled={currentPage === totalPages}
-            className="ml-2 px-4 py-2 bg-gray-200 text-gray-700 rounded-md hover:bg-gray-300 disabled:opacity-50"
+            className="px-4 sm:px-6 py-2 sm:py-3 bg-primary-600 text-white rounded-form hover:bg-primary-700 disabled:opacity-50 transform hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 shadow-form font-medium text-sm sm:text-base touch-manipulation"
           >
-            Next <ChevronRight className="inline ml-1" />
+            Next <ChevronRight className="inline ml-2 h-3 w-3 sm:h-4 sm:w-4" />
           </button>
         </div>
-        <div>
-          <label className="text-sm text-gray-600 mr-2">Items per page:</label>
+        <div className="flex items-center space-x-3 order-1 sm:order-2">
+          <label className="text-xs sm:text-sm font-medium text-secondary-700">Items per page:</label>
           <select
             value={itemsPerPage}
             onChange={(e) => setItemsPerPage(Number(e.target.value))}
-            className="border-gray-300 rounded-md text-sm focus:ring focus:ring-red-200 focus:border-red-500"
+            className="px-3 sm:px-4 py-2 border border-secondary-300 rounded-form text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-colors duration-200"
           >
             <option value={5}>5</option>
             <option value={10}>10</option>
@@ -425,32 +423,32 @@ const ComplaintsManager: React.FC = () => {
       </div>
 
       {showConfirmModal && selectedComplaint && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-          <div className="bg-white p-6 rounded-lg w-full max-w-md">
-            <h3 className="text-lg font-bold mb-4">Confirm Resolution</h3>
-            
-            <div className="mb-6">
-              <p className="text-gray-700">
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-3 sm:p-4">
+          <div className="bg-white p-4 sm:p-6 lg:p-8 rounded-form w-full max-w-md shadow-form-lg border border-secondary-200 mx-auto max-h-[90vh] overflow-y-auto">
+            <h3 className="text-lg sm:text-xl font-bold mb-4 sm:mb-6 text-secondary-800">Confirm Resolution</h3>
+
+            <div className="mb-4 sm:mb-6">
+              <p className="text-sm sm:text-base text-secondary-700 mb-3 sm:mb-4">
                 Are you sure you want to mark this complaint as solved?
               </p>
-              <div className="mt-2 p-3 bg-gray-50 rounded">
-                <p className="font-medium">{selectedComplaint.title}</p>
-                <p className="text-sm text-gray-600">{selectedComplaint.description}</p>
+              <div className="p-3 sm:p-4 bg-secondary-50 rounded-form">
+                <p className="font-medium text-sm sm:text-base text-secondary-800">{selectedComplaint.title}</p>
+                <p className="text-xs sm:text-sm text-secondary-600 mt-1">{selectedComplaint.description}</p>
               </div>
             </div>
 
-            <div className="flex justify-end space-x-3 mt-6">
+            <div className="flex flex-col sm:flex-row sm:justify-end gap-3 sm:gap-4 pt-4 sm:pt-6">
               <button
                 onClick={() => {
                   setShowConfirmModal(false);
                 }}
-                className="px-4 py-2 border border-gray-300 rounded-md text-gray-700 hover:bg-gray-50"
+                className="w-full sm:w-auto px-4 sm:px-6 py-2 sm:py-3 border border-secondary-300 rounded-form text-secondary-700 hover:bg-secondary-50 font-medium transition-colors duration-200 text-sm sm:text-base touch-manipulation"
               >
                 Cancel
               </button>
               <button
                 onClick={handleUpdateComplaint}
-                className="px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 disabled:opacity-50"
+                className="w-full sm:w-auto px-4 sm:px-6 py-2 sm:py-3 bg-green-600 text-white rounded-form hover:bg-green-700 disabled:opacity-50 transform hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 shadow-form font-medium text-sm sm:text-base touch-manipulation"
               >
                 Mark as Solved
               </button>
@@ -461,17 +459,17 @@ const ComplaintsManager: React.FC = () => {
 
       {/* Work Permit Creation Modal */}
       {showWorkPermitModal && selectedComplaintForPermit && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
-          <div className="bg-white rounded-lg w-full max-w-2xl max-h-[90vh] overflow-y-auto">
-            <div className="p-6">
-              <div className="flex justify-between items-center mb-4">
-                <h3 className="text-lg font-bold">Create Work Permit</h3>
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-3 sm:p-4">
+          <div className="bg-white rounded-form w-full max-w-2xl max-h-[90vh] overflow-y-auto shadow-form-lg border border-secondary-200 mx-auto">
+            <div className="p-4 sm:p-6 lg:p-8">
+              <div className="flex justify-between items-center mb-4 sm:mb-6">
+                <h3 className="text-lg sm:text-xl font-bold text-secondary-800">Create Work Permit</h3>
                 <button
                   onClick={() => {
                     setShowWorkPermitModal(false);
                     setSelectedComplaintForPermit(null);
                   }}
-                  className="text-gray-500 hover:text-gray-700"
+                  className="text-secondary-400 hover:text-secondary-600 text-xl sm:text-2xl transition-colors duration-200 touch-manipulation"
                 >
                   ×
                 </button>
@@ -499,17 +497,17 @@ const ComplaintsManager: React.FC = () => {
 
       {/* Work Permit Details Modal */}
       {showPermitDetails && selectedPermitForView && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
-          <div className="bg-white rounded-lg w-full max-w-2xl max-h-[90vh] overflow-y-auto">
-            <div className="p-6">
-              <div className="flex justify-between items-center mb-4">
-                <h3 className="text-lg font-bold">Work Permit Details</h3>
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-3 sm:p-4">
+          <div className="bg-white rounded-form w-full max-w-2xl max-h-[90vh] overflow-y-auto shadow-form-lg border border-secondary-200 mx-auto">
+            <div className="p-4 sm:p-6 lg:p-8">
+              <div className="flex justify-between items-center mb-4 sm:mb-6">
+                <h3 className="text-lg sm:text-xl font-bold text-secondary-800">Work Permit Details</h3>
                 <button
                   onClick={() => {
                     setShowPermitDetails(false);
                     setSelectedPermitForView(null);
                   }}
-                  className="text-gray-500 hover:text-gray-700"
+                  className="text-secondary-400 hover:text-secondary-600 text-xl sm:text-2xl transition-colors duration-200 touch-manipulation"
                 >
                   ×
                 </button>

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { MapPin, Plus, Edit2, Trash2, Search } from 'lucide-react';
+import { MapPin, Plus, Edit2, Trash2, Search, Upload } from 'lucide-react';
 import { api } from '../../services/api';
 import { Station, User } from '../../types';
 import Select from 'react-select';
@@ -27,6 +27,12 @@ const StationsManagement: React.FC = () => {
 
   const [showEditModal, setShowEditModal] = useState(false);
   const [editingStation, setEditingStation] = useState<Station | null>(null);
+
+  // Import modal state
+  const [showImportModal, setShowImportModal] = useState(false);
+  const [importFile, setImportFile] = useState<File | null>(null);
+  const [importLoading, setImportLoading] = useState(false);
+  const [importResult, setImportResult] = useState<{ message: string; results?: any[] } | null>(null);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -130,6 +136,54 @@ const StationsManagement: React.FC = () => {
     }
   };
 
+  const handleImport = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!importFile) return;
+
+    setImportLoading(true);
+    setImportResult(null);
+
+    try {
+      const token = localStorage.getItem('token');
+      const formData = new FormData();
+      formData.append('file', importFile);
+
+      const response = await fetch(`/api/stations/import`, {
+        method: 'POST',
+        headers: {
+          'Authorization': `Bearer ${token}`,
+        },
+        body: formData,
+      });
+
+      if (!response.ok) {
+        const error = await response.json();
+        throw new Error(error.message || 'Import failed');
+      }
+
+      const result = await response.json();
+      setImportResult(result);
+
+      // Refresh stations list after successful import
+      const stationsData = await api.get<Station[]>('/stations', token);
+      setStations(stationsData);
+
+      // Close modal after successful import
+      setTimeout(() => {
+        setShowImportModal(false);
+        setImportFile(null);
+        setImportResult(null);
+      }, 2000);
+
+    } catch (err: any) {
+      setImportResult({
+        message: err.message || 'Failed to import stations'
+      });
+    } finally {
+      setImportLoading(false);
+    }
+  };
+
   // Prepare options for react-select
   const managerOptions = managers.map(manager => ({
     value: manager.id,
@@ -142,19 +196,28 @@ const StationsManagement: React.FC = () => {
   return (
     <div className="space-y-6">
       {/* Header */}
-      <div className="flex justify-between items-center">
-        <div className="flex items-center space-x-2">
-          <MapPin className="h-6 w-6 text-gray-600" />
-          <h2 className="text-2xl font-bold text-gray-800">Stations Management</h2>
-        </div>
-        <button
-          onClick={() => setShowAddModal(true)}
-          className="flex items-center space-x-2 bg-red-600 text-white px-4 py-2 rounded-md hover:bg-red-700"
-        >
-          <Plus className="h-5 w-5" />
-          <span>Add Station</span>
-        </button>
-      </div>
+       <div className="flex justify-between items-center">
+         <div className="flex items-center space-x-2">
+           <MapPin className="h-6 w-6 text-gray-600" />
+           <h2 className="text-2xl font-bold text-gray-800">Stations Management</h2>
+         </div>
+         <div className="flex space-x-3">
+           <button
+             onClick={() => setShowImportModal(true)}
+             className="flex items-center space-x-2 bg-black text-white px-4 py-2 rounded-md hover:bg-gray-800"
+           >
+             <Upload className="h-5 w-5" />
+             <span>Import from Excel</span>
+           </button>
+           <button
+             onClick={() => setShowAddModal(true)}
+             className="flex items-center space-x-2 bg-red-600 text-white px-4 py-2 rounded-md hover:bg-red-700"
+           >
+             <Plus className="h-5 w-5" />
+             <span>Add Station</span>
+           </button>
+         </div>
+       </div>
 
       {/* Search Bar */}
       <div className="flex items-center space-x-4">
@@ -293,28 +356,34 @@ const StationsManagement: React.FC = () => {
                   <input
                     type="number"
                     step="any"
+                    min="-90"
+                    max="90"
                     value={newStation.location.latitude}
                     onChange={(e) => setNewStation({
                       ...newStation,
-                      location: { ...newStation.location, latitude: parseFloat(e.target.value) }
+                      location: { ...newStation.location, latitude: parseFloat(e.target.value) || 0 }
                     })}
                     className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-red-500 focus:ring focus:ring-red-200"
                     required
                   />
+                  <p className="mt-1 text-xs text-gray-500">Range: -90 to 90</p>
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-gray-700">Longitude</label>
                   <input
                     type="number"
                     step="any"
+                    min="-180"
+                    max="180"
                     value={newStation.location.longitude}
                     onChange={(e) => setNewStation({
                       ...newStation,
-                      location: { ...newStation.location, longitude: parseFloat(e.target.value) }
+                      location: { ...newStation.location, longitude: parseFloat(e.target.value) || 0 }
                     })}
                     className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-red-500 focus:ring focus:ring-red-200"
                     required
                   />
+                  <p className="mt-1 text-xs text-gray-500">Range: -180 to 180</p>
                 </div>
               </div>
               <div>
@@ -373,38 +442,44 @@ const StationsManagement: React.FC = () => {
                   <input
                     type="number"
                     step="any"
+                    min="-90"
+                    max="90"
                     value={editingStation.location.latitude}
                     onChange={(e) =>
                       setEditingStation({
                         ...editingStation,
                         location: {
                           ...editingStation.location,
-                          latitude: parseFloat(e.target.value)
+                          latitude: parseFloat(e.target.value) || 0
                         }
                       } as Station)
                     }
                     className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring focus:ring-indigo-200"
                     required
                   />
+                  <p className="mt-1 text-xs text-gray-500">Range: -90 to 90</p>
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-gray-700">Longitude</label>
                   <input
                     type="number"
                     step="any"
+                    min="-180"
+                    max="180"
                     value={editingStation.location.longitude}
                     onChange={(e) =>
                       setEditingStation({
                         ...editingStation,
                         location: {
                           ...editingStation.location,
-                          longitude: parseFloat(e.target.value)
+                          longitude: parseFloat(e.target.value) || 0
                         }
                       } as Station)
                     }
                     className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring focus:ring-indigo-200"
                     required
                   />
+                  <p className="mt-1 text-xs text-gray-500">Range: -180 to 180</p>
                 </div>
               </div>
               <div>
@@ -434,9 +509,72 @@ const StationsManagement: React.FC = () => {
                 </button>
                 <button
                   type="submit"
-                  className="px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700"
+                  className="px-4 py-2 bg-red-600 text-white rounded-md hover:bg-red-700"
                 >
                   Update Station
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      )}
+
+      {/* Import Modal */}
+      {showImportModal && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+          <div className="bg-white p-6 rounded-lg w-full max-w-md">
+            <h3 className="text-lg font-bold mb-4">Import Stations from Excel</h3>
+
+            {importResult && (
+              <div className={`mb-4 p-3 rounded-md ${
+                importResult.message.includes('Successfully')
+                  ? 'bg-green-100 text-green-800'
+                  : 'bg-red-100 text-red-800'
+              }`}>
+                {importResult.message}
+              </div>
+            )}
+
+            <form onSubmit={handleImport} className="space-y-4">
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Select Excel File
+                </label>
+                <input
+                  type="file"
+                  accept=".xlsx,.xls"
+                  onChange={(e) => setImportFile(e.target.files?.[0] || null)}
+                  className="mt-1 block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-md file:border-0 file:text-sm file:font-semibold file:bg-red-50 file:text-red-700 hover:file:bg-red-100"
+                  required
+                />
+                <p className="mt-1 text-sm text-gray-500">
+                  <strong>Expected Excel format:</strong><br/>
+                  • Names: Station name (e.g., "SP GISAGARA")<br/>
+                  • Location: Coordinates (e.g., "-1.940685,30.046401")<br/>
+                  • PMS/AGO: Sales amounts (numbers)<br/>
+                  • LPG: Sales in kg (numbers)
+                </p>
+              </div>
+
+              <div className="flex justify-end space-x-3 mt-6">
+                <button
+                  type="button"
+                  onClick={() => {
+                    setShowImportModal(false);
+                    setImportFile(null);
+                    setImportResult(null);
+                  }}
+                  className="px-4 py-2 border border-gray-300 rounded-md text-gray-700 hover:bg-gray-50"
+                  disabled={importLoading}
+                >
+                  Cancel
+                </button>
+                <button
+                  type="submit"
+                  className="px-4 py-2 bg-black text-white rounded-md hover:bg-gray-800 disabled:opacity-50"
+                  disabled={importLoading || !importFile}
+                >
+                  {importLoading ? 'Importing...' : 'Import'}
                 </button>
               </div>
             </form>

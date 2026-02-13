@@ -3,11 +3,12 @@ import { Shield, AlertTriangle, CheckCircle, FileText } from 'lucide-react';
 
 interface WorkPermitProps {
   complaintId: string;
+  stationId: string;
   onSubmit: (permitData: any) => void;
   existingPermit?: any;
 }
 
-const WorkPermitInterface: React.FC<WorkPermitProps> = ({ complaintId, onSubmit, existingPermit }) => {
+const WorkPermitInterface: React.FC<WorkPermitProps> = ({ complaintId, stationId, onSubmit, existingPermit }) => {
   const [permitData, setPermitData] = useState({
     permit_type: existingPermit?.permit_type || 'Hard Work',
     required_safety_ppe: {
@@ -98,7 +99,7 @@ const WorkPermitInterface: React.FC<WorkPermitProps> = ({ complaintId, onSubmit,
 
   return (
     <div className="bg-white rounded-lg shadow-md p-6">
-      <div className="bg-orange-600 text-white text-center py-2 rounded-t-lg -mx-6 -mt-6 mb-6">
+      <div className="bg-primary-600 text-white text-center py-3 rounded-t-lg -mx-6 -mt-6 mb-6 shadow-form">
         <h2 className="text-xl font-bold">Work Permit</h2>
       </div>
 
@@ -111,7 +112,7 @@ const WorkPermitInterface: React.FC<WorkPermitProps> = ({ complaintId, onSubmit,
           <select
             value={permitData.permit_type}
             onChange={(e) => setPermitData(prev => ({ ...prev, permit_type: e.target.value }))}
-            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500"
+            className="w-full px-3 py-2 border border-gray-300 rounded-form focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
             required
           >
             {permitTypes.map(type => (
@@ -138,7 +139,7 @@ const WorkPermitInterface: React.FC<WorkPermitProps> = ({ complaintId, onSubmit,
                   type="checkbox"
                   checked={permitData.required_safety_ppe[item.key as keyof typeof permitData.required_safety_ppe]}
                   onChange={(e) => handlePPEChange(item.key, e.target.checked)}
-                  className="form-checkbox h-4 w-4 text-orange-600"
+                  className="form-checkbox h-4 w-4 text-primary-600"
                 />
                 <span className="text-sm text-gray-700">{item.label}</span>
               </label>
@@ -180,7 +181,7 @@ const WorkPermitInterface: React.FC<WorkPermitProps> = ({ complaintId, onSubmit,
               value={permitData.required_precautions.others}
               onChange={(e) => handleOthersChange(e.target.value)}
               rows={2}
-              className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500"
+              className="w-full px-3 py-2 border border-gray-300 rounded-form focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
               placeholder="Specify any additional precautions needed..."
             />
           </div>
@@ -202,10 +203,10 @@ const WorkPermitInterface: React.FC<WorkPermitProps> = ({ complaintId, onSubmit,
         </div>
 
         {/* Submit Button */}
-        <div className="bg-orange-600 text-white text-center py-3 rounded-lg">
+        <div className="bg-primary-600 text-white text-center py-3 rounded-lg shadow-form">
           <button
             type="submit"
-            className="font-semibold hover:bg-orange-700 transition-colors w-full py-2 rounded"
+            className="font-semibold hover:bg-primary-700 transition-colors w-full py-2 rounded-form"
           >
             {existingPermit ? 'Update Work Permit' : 'Submit Work Permit'}
           </button>

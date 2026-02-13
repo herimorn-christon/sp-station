@@ -25,7 +25,7 @@ const AuthCheck: React.FC = () => {
             dispatch(setUser({
               id: response.id,
               email: response.email,
-              role: response.role,
+                role: response.role as 'admin' | 'station_manager' | 'operations' | 'unicorn' | 'trident',
               name: response.name || '',
               created_at: response.created_at // <-- Add this line
             }));

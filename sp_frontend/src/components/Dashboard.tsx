@@ -88,26 +88,15 @@ const Dashboard: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100">
-      <nav className="bg-white shadow-xl border-b border-gray-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between h-16">
-            <div className="flex">
-              <div className="flex-shrink-0 flex items-center">
-                <div className="relative pb-2">
-                  <h1 className="text-xl font-bold text-black">
-                    Station Management System
-                  </h1>
-                </div>
-              </div>
+    <div className="min-h-screen bg-secondary-100">
+      <div className="flex h-screen">
+        <Sidebar />
+        <main className="flex-1 overflow-auto bg-secondary-50">
+          <div className="p-3 sm:p-4 lg:p-8">
+            <div className="max-w-7xl mx-auto">
+              {getDashboardRoutes()}
             </div>
           </div>
-        </div>
-      </nav>
-      <div className="flex h-[calc(100vh-4rem)]">
-        <Sidebar />
-        <main className="flex-1 overflow-auto p-8 bg-gray-50">
-          {getDashboardRoutes()}
         </main>
       </div>
     </div>

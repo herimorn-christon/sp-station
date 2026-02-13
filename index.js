@@ -13,12 +13,13 @@ import complaintRoutes from './routes/complaintRoutes.js';
 import salesRoutes from './routes/salesRoutes.js';
 import dashboardRoutes from './routes/dashboardRoutes.js';
 import workPermitRoutes from './routes/workPermitRoutes.js';
+import systemRoutes from './routes/systemRoutes.js';
+
 
 dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 6000;
-const HOST = 'localhost';
-
+const HOST = process.env.HOST || '0.0.0.0';
 // Middleware
 app.use(cors());
 app.use(express.json());
@@ -38,6 +39,22 @@ uploadDirs.forEach(dir => {
 
 // Serve static files from uploads
 app.use('/uploads', express.static(path.join(process.cwd(), 'uploads')));
+
+// Serve built frontend in production
+if (process.env.NODE_ENV === 'production') {
+  const frontendDistPath = path.join(process.cwd(), 'sp_frontend', 'dist');
+
+  // Serve static files from frontend build directory
+  app.use(express.static(frontendDistPath));
+
+  // Handle React Router - serve index.html for all non-API routes
+  app.use((req, res, next) => {
+    if (req.path.startsWith('/api/') || req.path.startsWith('/uploads/')) {
+      return next();
+    }
+    res.sendFile(path.join(frontendDistPath, 'index.html'));
+  });
+}
 
 // Initialize database tables and default users
 async function initializeTables() {
@@ -188,100 +205,25 @@ async function initializeTables() {
         );
       `);
 
-      // Insert default users including unicorn and trident
-      const defaultUsers = [
-        {
-          name: 'Admin User',
-          email: 'admin@test.com',
-          password: 'admin123',
-          role: 'admin'
-        },
-        {
-          name: 'Station Manager',
-          email: 'manager@test.com',
-          password: 'manager123',
-          role: 'station_manager'
-        },
-        {
-          name: 'Operations User',
-          email: 'operations@test.com',
-          password: 'ops123',
-          role: 'operations'
-        },
-        {
-          name: 'Unicorn Technician',
-          email: 'unicorn@test.com',
-          password: 'unicorn123',
-          role: 'unicorn'
-        },
-        {
-          name: 'Trident Technician',
-          email: 'trident@test.com',
-          password: 'trident123',
-          role: 'trident'
-        }
-      ];
+      // Insert only admin user
+      const adminUser = {
+        name: 'Technical',
+        email: 'technical@gmail.com',
+        password: 'technical123',
+        role: 'admin'
+      };
 
-      const userIds = {};
-      for (const user of defaultUsers) {
-        const hashedPassword = await bcrypt.hash(user.password, 10);
-        const result = await pool.query(
-          'INSERT INTO users (name, email, password, role) VALUES ($1, $2, $3, $4) ON CONFLICT (email) DO NOTHING RETURNING id',
-          [user.name, user.email, hashedPassword, user.role]
-        );
-        if (result.rows.length > 0) {
-          userIds[user.role] = result.rows[0].id;
-        }
+      const hashedPassword = await bcrypt.hash(adminUser.password, 10);
+      const result = await pool.query(
+        'INSERT INTO users (name, email, password, role) VALUES ($1, $2, $3, $4) ON CONFLICT (email) DO NOTHING RETURNING id',
+        [adminUser.name, adminUser.email, hashedPassword, adminUser.role]
+      );
+
+      if (result.rows.length > 0) {
+        console.log('Admin user initialized successfully');
+      } else {
+        console.log('Admin user already exists');
       }
-
-      // Insert default stations
-      const defaultStations = [
-        {
-          name: 'Lagos Central Station',
-          location: { latitude: 6.5244, longitude: 3.3792 },
-          manager_id: userIds.station_manager
-        },
-        {
-          name: 'Abuja Main Station',
-          location: { latitude: 9.0765, longitude: 7.3986 },
-          manager_id: userIds.station_manager
-        },
-        {
-          name: 'Port Harcourt Station',
-          location: { latitude: 4.8156, longitude: 7.0498 },
-          manager_id: userIds.station_manager
-        }
-      ];
-
-      const stationIds = [];
-      for (const station of defaultStations) {
-        const result = await pool.query(
-          'INSERT INTO stations (name, location, manager_id) VALUES ($1, $2, $3) RETURNING id',
-          [station.name, station.location, station.manager_id]
-        );
-        stationIds.push(result.rows[0].id);
-      }
-
-      // Insert sample sales data for the last 7 days
-      for (const stationId of stationIds) {
-        for (let i = 0; i < 7; i++) {
-          const date = new Date();
-          date.setDate(date.getDate() - i);
-          
-          await pool.query(
-            'INSERT INTO sales_data (station_id, date, pms_sales, ago_sales, lpg_sales) VALUES ($1, $2, $3, $4, $5)',
-            [
-              stationId,
-              date.toISOString().split('T')[0],
-              Math.floor(Math.random() * 1000000) + 500000,
-              Math.floor(Math.random() * 800000) + 300000,
-              Math.floor(Math.random() * 500000) + 200000
-            ]
-          );
-        }
-      }
-
-      console.log('Database tables and default data initialized successfully');
     } else {
       // Update existing tables with missing columns
       const columnsToAdd = [
@@ -488,17 +430,6 @@ async function initializeTables() {
           EXECUTE FUNCTION set_permit_number();
       `);
 
-      // Insert default trident user if not exists
-      await pool.query(`
-        DO $$
-        BEGIN
-          IF NOT EXISTS (SELECT 1 FROM users WHERE email = 'trident@test.com') THEN
-            INSERT INTO users (name, email, password, role) 
-            VALUES ('Trident Technician', 'trident@test.com', '$2b$10$rQj5pKvQjYXV6jFWULNqFOKyUJhzqgE6YYxJQeqjOSgGqGgNzLtlO', 'trident');
-          END IF;
-        END $$;
-      `);
-
       console.log('Database tables already exist, ensured all required columns are present');
     }
   } catch (error) {
@@ -516,6 +447,7 @@ app.use('/api/complaints', complaintRoutes);
 app.use('/api/sales', salesRoutes);
 app.use('/api/dashboard', dashboardRoutes);
 app.use('/api/work-permits', workPermitRoutes);
+app.use('/api/system', systemRoutes);
 
 app.listen(PORT, HOST, () => {
   console.log(`Server running on http://${HOST}:${PORT}`);

@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { PersistGate } from 'redux-persist/integration/react';
+import { Toaster } from 'react-hot-toast';
 import { store, persistor } from './store';
 import Dashboard from './components/Dashboard';
 import Login from './components/Login';
@@ -27,6 +28,28 @@ function App() {
               />
             </Routes>
           </div>
+          <Toaster
+            position="top-right"
+            toastOptions={{
+              duration: 4000,
+              style: {
+                background: '#363636',
+                color: '#fff',
+              },
+              success: {
+                duration: 3000,
+                style: {
+                  background: '#10B981',
+                },
+              },
+              error: {
+                duration: 5000,
+                style: {
+                  background: '#EF4444',
+                },
+              },
+            }}
+          />
         </Router>
       </PersistGate>
     </Provider>
